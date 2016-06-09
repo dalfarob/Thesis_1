@@ -1,0 +1,44 @@
+%------------------------------------------------------------------------
+% Template provided by MIT
+%------------------------------------------------------------------------
+\documentclass[12pt,twoside]{mitthesis}
+%------------------------------------------------------------------------
+\usepackage{ragged2e}
+\usepackage{biblatex}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage{amssymb}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{caption}
+%------------------------------------------------------------------------
+\begin{document}
+%------------------------------------------------------------------------
+% Renew commands - Translation
+%------------------------------------------------------------------------
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+\renewcommand{\bibname}{Bibliograf\'ia} 
+\renewcommand{\abstractname}{Abstract}
+\renewcommand{\contentsname}{Tabla de Contenido}
+%------------------------------------------------------------------------
+% Add captions
+%------------------------------------------------------------------------
+\captionsetup[table]{name = Tabla}
+%------------------------------------------------------------------------
+% Document Structure
+%------------------------------------------------------------------------
+\include{cover}
+\include{contents}
+\include{intro}
+\include{proposal}
+\include{objectives}
+\include{scope}
+\include{deliverables}
+\include{method}
+\include{projectPlan}
+\include{appa}
+\include{appb}
+\include{biblio}
+\addcontentsline{toc}{section}{Bibliography}
+%------------------------------------------------------------------------
+\end{document}
+%------------------------------------------------------------------------

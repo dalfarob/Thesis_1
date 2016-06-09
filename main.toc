@@ -1,0 +1,49 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.1}Introducci\'on}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.2}\textbf {Propuesta de Proyecto}}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.1}Planteamiento del Problema}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.2}Propuesta del Proyecto}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.3}Trabajos Relacionados}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.4}Hip\'otesis}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.5}M\'etricas}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.6}Desarrollo del Proyecto}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.3}\textbf {Objetivo General}}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.4}\textbf {Objetivos Espec\'ificos}}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.5}\textbf {Alcance y Limitaciones}}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.6}\textbf {Entregables}}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.7}\textbf {Metodolog\'ia}}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.7.1}Dise\~no de Experimentos}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Declaraci\'on del Problema}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Factores y Niveles}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Variables de Respuesta}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Recolecci\'on de Datos}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{An\'alisis de Varianza}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.7.2}Ambiente de Desarrollo}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.8}\textbf {Cronograma de Actividades}}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.9}Lista de Tablas}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.10}Lista de Figuras}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliograf\'ia}{19}
