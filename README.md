@@ -1,2 +1,3 @@
 # Thesis_1
-This is the repository to track the different versions of the thesis proposal created in LaTeX.Created by: David E Alfaro Barboza
+This repository has been created to track the different versions of LaTeX docs. 
+Created by: David E Alfaro Barboza
