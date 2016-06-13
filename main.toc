@@ -32,18 +32,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Factores y Niveles}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Variables de Respuesta}{14}
+\contentsline {subsubsection}{Variables de Respuesta}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Recolecci\'on de Datos}{14}
+\contentsline {subsubsection}{Recolecci\'on de Datos}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{An\'alisis de Varianza}{14}
+\contentsline {subsubsection}{An\'alisis de Varianza}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.7.2}Ambiente de Desarrollo}{14}
+\contentsline {subsection}{\numberline {0.7.2}Ambiente de Desarrollo}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.8}\textbf {Cronograma de Actividades}}{15}
+\contentsline {section}{\numberline {0.8}\textbf {Cronograma de Actividades}}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.9}Lista de Tablas}{16}
+\contentsline {section}{\numberline {0.9}Lista de Tablas}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.10}Lista de Figuras}{17}
+\contentsline {section}{\numberline {0.10}Lista de Figuras}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'ia}{19}
+\contentsline {chapter}{Bibliograf\'ia}{21}

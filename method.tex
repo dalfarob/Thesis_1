@@ -1,6 +1,6 @@
 \section{\textbf{Metodolog\'ia}}
 \subsection{Dise\~no de Experimentos}
-Para describir el planeamiento pre-experimental para el dise\~no de experimentos de este trabajo, (con la informaci\'on disponible hasta el momento), se usan los \textit{lineamientos} desarrollados en el libro de Douglas C. Montgomery [2]. El esquema del procedimiento recomendado en los lineamientos para esta etapa incluye lo siguiente:
+Para describir el planeamiento pre-experimental para el dise\~no de experimentos de este trabajo, (con la informaci\'on disponible hasta el momento), se usan los \textit{lineamientos} desarrollados en el libro de Douglas C. Montgomery [2]. El esquema del procedimiento recomendado en los lineamientos para el desarrollo de esta etapa incluye lo siguiente:
 \begin{itemize}
 \item [1.] \textbf{Reconocimiento y definici\'on del problema:} consiste en desarrollar una declaraci\'on clara y sencilla del problema. Una clara definici\'on del problema, normalmente contribuye substancialmente a una mejor comprensi\'on del fen\'omeno que esta siendo estudiado y a la soluci\'on final de dicho problema.
 \item [2.] \textbf{Selecci\'on de factores, niveles y rangos:} consiste en enumerar todos los posibles factores que pueden influenciar el experimento. Incluye tanto los factores de dise\~no potencial (los que potencialmente se podr\'ian querer modificar en los experimentos) y los factores perturbadores (los que no se quieren estudiar en el contexto del experimento). Tambi\'en se deben seleccionar los rangos sobre los que var\'ian los distintos factores y los niveles espec\'ificos sobre los que se aplicar\'an las iteraciones del experimento.
@@ -9,8 +9,61 @@ Para describir el planeamiento pre-experimental para el dise\~no de experimentos
 \item [5] \textbf{Llevar a cabo el experimiento:} en esta etapa, es de vital importancia monitorear el proceso cuidadosamente para asegurar la correcta ejecuci\'on del experimento con respecto a lo planeado.
 \end{itemize}
 \subsubsection{Declaraci\'on del Problema}
+Estudiar el comportamiento de \textit{Cubic Spline Interpolation} como medida de distancia utilizada en el descubrimiento de reglas significativas en series temporales complejas y en presencia de ruido.\\
+\textit{Cubic Spline Interpolation} y otras medidas medidas de distancia ser\'an incorporadas en dos los algoritmos espec\'ificos llamados \textit{\textbf{"Rule Bit Saves"}} y \textit{\textbf{"Find Antecedent Candidates"}} propuestos por Mohammad Shokoohi-Yekta y colaboradores.\\
+Por cada medida de distancia utilizada, se crear\'a una nueva versi\'on de ambos algoritmos.\\
+La precisi\'on en el hallazgo de reglas significativas ser\'a medido a trav\'es de la ejecuci\'on, la comparaci\'on y el an\'alisis de cada version de version de los algoritmos, mediante la utilizaci\'on de al menos cinco fuentes de datos temporales de complejidad variada y en presencia de diferentes niveles de ruido.
 \subsubsection{Factores y Niveles}
+En el dise\~no de experimentos, un factor es aquel componente que tiene cierta
+influencia en las variables de respuesta [2].\\
+El objetivo de un experimento es determinar esta influencia. A su vez, cada factor cuenta con varios niveles posibles con los cuales experimentar.\\
+Usando la informaci\'on recolectada en esta etapa de la investigaci\'on, as\'i como la experiencia adquirida por el estudiante y expuesta en los cap\'itulos anteriores, se han seleccionado inicialmente los siguientes dos factores para su estudio:
+\begin{itemize}
+\item [1.] \textbf{Las m\'etricas o medidas de distancia}\\
+Se utilizar\'an dos algoritmos para la ejecuci\'on del dise\~no de experimental: 1- \textit{\textbf{"Rule Bit Saves"}} utilizado en la selecci\'on de potenciales reglas o patrones significativos (\textit{\textit{detecci\'on de reglas \textit{Motif [1]}}}) y 2- \textit{\textbf{"Find Antecedent Candidates"}}, creado para probar la efectividad de las reglas m\'as significativas sobre cada uno de los conjuntos de datos.\\
+Ambos algoritmos ser\'an moficados y adaptados a cada medida de distancia y su ejecuci\'on sobre cada conjunto de datos ser\'a realizada en forma controlada e independiente.\\
+Las medidas de distancia utilizadas, son las siguientes:
+\begin{itemize}
+\item \textbf{\textit{Distancia Euclidiana}}
+\item \textbf{\textit{Swale}}
+\item \textbf{\textit{Spade}}
+\item \textbf{\textit{EPR}}
+\item \textbf{\textit{Cubic Spline Interpolation}}
+\end{itemize}
+\item [2.] \textbf{El conjunto de datos, tama\~no y complejidad}\\
+Con respecto a la cantidad de ruido encontrado en el conjunto de datos, podemos definir al menos tres diferentes tama\~no: 1- conjunto de datos con poco ruido (nivel pendiente de determinar), 2- conjunto de datos con ruido moderado (nivel pendiente de determinar), 3-conjunto de datos con mucho ruido (nivel pendiente de determinar). \\
+En el experimento, se utilizar\'an los siguientes conjuntos de datos:
+\begin{itemize}
+\item 1. \textbf{Energy disaggregation dataset:} contiene el amperaje del consumo diaro de una casa promedio durante un a\~no.
+\item 2. \textbf{Zebra finch vocalizations:} contiene las grabaciones del canto de un pajaro Zebra durante sus primeros 100 d\'as.
+\item 3. \textbf{Daily basis activity data set:} este conjunto de datos contiene informaci\'on telem\'etrica de actividades cotidianas de una persona.
+\item 4. \textbf{NASA telemetry data:} contiene medidas de voltajes err\'oneas producidas por las v\'alvulas utilizadas en los transbordadores espaciales de la NASA, utilizadas para el estudio y la detecci\'on de anomal\'ias .
+\end{itemize}
+\end{itemize}
+\begin{center}
+\includegraphics[scale=0.6]{factors.png}\\
+\vspace*{10pt}
+\footnotesize{\textbf{Imagen 1.} Tabla de factores por analizar en esta investigaci\'on.}
+\end{center}
 \subsubsection{Variables de Respuesta}
+Dado que la hip\'otesis afirma maximizar el nivel de exactitud en la selecci\'on y el hallazgo de reglas significativas, se han seleccionado las siguientes variables de respuesta:
+\begin{itemize}
+\item [1.] \textbf{\textit{Exactitud:}} total de aciertos en la identificaci\'on de reglas \textit{motif} (potenciales reglas significativas), sobre cada conjunto de prueba, mediante la ejecuci\'on de las diferentes versiones del algoritmo \textbf{"Rule Bit Saves"}.
+\item [2.] \textit{\textbf{Precisi\'on:}} mide la calidad de la medida de distancia para cada version del algoritmo \textit{\textbf{"Find Antecedent Candidates"}}, en la detecci\'on del segmento antencedente de la regla sobre el flujo de datos, para cada conjunto de datos de prueba.
+\end{itemize}
 \subsubsection{Recolecci\'on de Datos}
+Las variables de respuesta ser\'an recolectadas de forma autom\'atica una vez concluida la ejecuci\'on de cada una de las versiones de ambos algoritmos.\\
+La automatizaci\'on de la recolecci\'on de las variables de respuesta ser\'a posible mediante la implementaci\'on del ambiente de pruebas.
 \subsubsection{An\'alisis de Varianza}
 \subsection{Ambiente de Desarrollo}
+Para el desarrollo de la tesis, se implementar\'a una plataforma que cumpla con dos caracter\'isticas principales:
+\begin{itemize}
+\item [1.] Que la plataforma se pueda ejecutar sobre los sistemas operativos Windows y Linux: esto implica que el c\'odigo fuente debe ser escrito en un lenguaje de programaci\'on capaz de correr en los dos sistemas operativos con un n\'umero m\'inimo de cambios y que las bibliotecas utilizadas est\'en disponibles para los dos sistemas operativos.
+\item [2.] Que las herramientas y bibliotecas a utilizar sean gratuitas al menos para uso acad\'emico.
+\end{itemize}
+Basado en estas dos caracter\'isticas, se ha elegido una lista de posibles soluciones de software a utilizar.\\
+Como se indica, esta lista es preliminar, por lo que se preveen posibles cambios durante el desarrollo de la tesis.
+\begin{itemize}
+\item \textbf{Sistema Operativo:} Windows 8.1.
+\item \textbf{Lenguaje de programaci\'on:} Matrix Laboratory (MATLAB).
+\end{itemize}
