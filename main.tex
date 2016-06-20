@@ -19,15 +19,22 @@
 \renewcommand{\bibname}{Bibliograf\'ia} 
 \renewcommand{\abstractname}{Abstract}
 \renewcommand{\contentsname}{Tabla de Contenido}
+\renewcommand{\listtablename}{Lista de Tablas} 
+\renewcommand{\listfigurename}{Lista de Figuras}
+\captionsetup[table]{name = Tabla,font=small,skip=0pt} 
 %------------------------------------------------------------------------
 % Add captions
 %------------------------------------------------------------------------
-\captionsetup[table]{name = Tabla}
+% \captionsetup[table]{name = Tabla}
 %------------------------------------------------------------------------
 % Document Structure
 %------------------------------------------------------------------------
 \include{cover}
 \include{contents}
+\listoftables
+\let\cleardoublepage\clearpage
+\listoffigures
+\let\cleardoublepage\clearpage
 \include{intro}
 \include{proposal}
 \include{objectives}
