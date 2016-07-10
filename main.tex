@@ -2,26 +2,38 @@
 % Template provided by MIT
 %------------------------------------------------------------------------
 \documentclass[12pt,twoside]{mitthesis}
+
 %------------------------------------------------------------------------
 \usepackage{ragged2e}
-\usepackage{biblatex}
+%\usepackage{biblatex}
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage{amssymb}
 \usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{caption}
+\usepackage{tocloft}
+\usepackage[sort, numbers]{natbib}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+
 %------------------------------------------------------------------------
 \begin{document}
+
 %------------------------------------------------------------------------
 % Renew commands - Translation
 %------------------------------------------------------------------------
+\MakeOuterQuote{"}
 \renewcommand{\labelitemi}{\tiny$\blacksquare$}
-\renewcommand{\bibname}{Bibliograf\'ia} 
+\renewcommand{\bibname}{Referencias} 
 \renewcommand{\abstractname}{Abstract}
 \renewcommand{\contentsname}{Tabla de Contenido}
 \renewcommand{\listtablename}{Lista de Tablas} 
 \renewcommand{\listfigurename}{Lista de Figuras}
 \captionsetup[table]{name = Tabla,font=small,skip=0pt} 
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\setcitestyle{square}
+
 %------------------------------------------------------------------------
 % Add captions
 %------------------------------------------------------------------------
