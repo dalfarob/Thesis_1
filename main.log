@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  10 JUL 2016 04:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  13 JUL 2016 18:29
 entering extended mode
 **main.tex
 
@@ -175,10 +175,17 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cfttabindent=\skip89
 \cfttabnumwidth=\skip90
 )
+("C:\Program Files\MiKTeX 2.9\tex\generic\genmisc\kbordermatrix.sty"
+Package: kbordermatrix 2011/09/21 Bordered matrix with brackets
+\kbcolsep=\skip91
+\kbrowsep=\skip92
+\br@kwd=\skip93
+\k@bordht=\skip94
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip91
-\bibsep=\skip92
+\bibhang=\skip95
+\bibsep=\skip96
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count94
 )
@@ -272,20 +279,20 @@ osal\biblio.aux"
 Package natbib Warning: Citation `timewarping' multiply defined.
 
 ))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 20.
+LaTeX Info: Redefining \selectfont on input line 18.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -303,7 +310,7 @@ LaTeX Info: Redefining \selectfont on input line 20.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Package csquotes Info: Allocating character " on input line 25.
+Package csquotes Info: Allocating character " on input line 23.
 
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\cover.tex"
@@ -362,16 +369,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 16--20
+[8] <timeSeries.png, id=31, 515.526pt x 320.99925pt>
+File: timeSeries.png Graphic file (type png)
+ <use timeSeries.png>
+Package pdftex.def Info: timeSeries.png used on input line 16.
+(pdftex.def)             Requested size: 360.86574pt x 224.69794pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
  []
 
-)
-Underfull \vbox (badness 1769) has occurred while \output is active []
 
- [9]
-[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
+roposal/timeSeries.png>] [10])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+[12]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\proposal.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
@@ -403,7 +419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-[11
+[13
 
 
 ]
@@ -421,7 +437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-[12]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
@@ -436,7 +452,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
 
-) [13]
+) [15]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\objectives.tex"
 Overfull \hbox (9.11986pt too wide) in paragraph at lines 8--9
@@ -444,7 +460,7 @@ Overfull \hbox (9.11986pt too wide) in paragraph at lines 8--9
 fico an-te-rior, con el proposito
  []
 
-) [14
+) [16
 
 
 ]
@@ -455,12 +471,12 @@ Overfull \hbox (4.64629pt too wide) in paragraph at lines 15--16
 n de seg-men-tos an-tecedentes
  []
 
-) [15
+) [17
 
 
-] [16]
+] [18]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\deliverables.tex") [17
+osal\deliverables.tex") [19
 
 
 ]
@@ -471,10 +487,10 @@ Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 rension del fenomeno
  []
 
-[18
+[20
 
 
-] [19] <factors.png, id=71, 545.78906pt x 187.45032pt>
+] [21] <factors.png, id=82, 545.78906pt x 187.45032pt>
 File: factors.png Graphic file (type png)
  <use factors.png>
 Package pdftex.def Info: factors.png used on input line 44.
@@ -482,21 +498,21 @@ Package pdftex.def Info: factors.png used on input line 44.
 
 Underfull \vbox (badness 1454) has occurred while \output is active []
 
- [20]
+ [22]
 Overfull \hbox (15.29796pt too wide) in paragraph at lines 60--61
 \OT1/cmr/m/n/12 Para ese proposito, se uti-lizara el metodo es-tadstico, n
 o parametrico lla-mado \OT1/cmr/bx/it/12 \  Kruskal-
  []
 
-[21 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
-roposal/factors.png>]) [22]
+[23 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
+roposal/factors.png>]) [24]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\projectPlan.tex") [23
+osal\projectPlan.tex") [25
 
 
 ]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appa.tex" <deliverables.png, id=88, 641.39626pt x 233.37187pt>
+osal\appa.tex" <deliverables.png, id=98, 641.39626pt x 233.37187pt>
 File: deliverables.png Graphic file (type png)
 
 <use deliverables.png>
@@ -507,7 +523,7 @@ Overfull \hbox (15.35432pt too wide) in paragraph at lines 6--6
  [] 
  []
 
-<projectPlan.png, id=89, 829.59938pt x 148.30406pt>
+<projectPlan.png, id=99, 829.59938pt x 148.30406pt>
 File: projectPlan.png Graphic file (type png)
  <use projectPlan.png>
 Package pdftex.def Info: projectPlan.png used on input line 13.
@@ -517,14 +533,19 @@ Overfull \hbox (80.72632pt too wide) in paragraph at lines 13--13
  [] 
  []
 
-[24
+[26
 
 
  <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/Prop
 osal/deliverables.png> <C:/Users/dalfarob/Documents/My Carrier Development/Mast
 er Degree/Tesis I/Proposal/projectPlan.png>])
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appb.tex" [25
+osal\appb.tex"
+File: timeSeries.png Graphic file (type png)
+ <use timeSeries.png>
+Package pdftex.def Info: timeSeries.png used on input line 5.
+(pdftex.def)             Requested size: 360.86574pt x 224.69794pt.
+ [27
 
 
 
@@ -549,7 +570,7 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [26
+ [28
 
 
 
@@ -570,7 +591,7 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [27]) [28]
+ [29]) [30]
 
 Package natbib Warning: There were multiply defined citations.
 
@@ -611,26 +632,28 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4723 strings out of 493921
- 75257 string characters out of 3147273
- 138777 words of memory out of 3000000
- 7875 multiletter control sequences out of 15000+200000
+ 4752 strings out of 493921
+ 75817 string characters out of 3147273
+ 142153 words of memory out of 3000000
+ 7899 multiletter control sequences out of 15000+200000
  12727 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,6n,39p,1140b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,39p,1141b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (28 pages, 230325 bytes).
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on main.pdf (30 pages, 339093 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
+ 158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
