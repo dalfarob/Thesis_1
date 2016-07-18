@@ -4,27 +4,30 @@
 \contentsline {subsection}{\numberline {0.2.1}Series Temporales}{8}
 \contentsline {subsection}{\numberline {0.2.2}Aplicaci\'on y An\'alisis de Series Temporales}{10}
 \contentsline {subsection}{\numberline {0.2.3}Grandes Retos Sobre la Miner\'ia de Series Temporales}{11}
-\contentsline {subsection}{\numberline {0.2.4}Medidas de Similitud}{12}
-\contentsline {section}{\numberline {0.3}\textbf {Propuesta de Proyecto}}{13}
-\contentsline {subsection}{\numberline {0.3.1}Planteamiento del Problema}{13}
-\contentsline {subsection}{\numberline {0.3.2}Propuesta del Proyecto}{14}
-\contentsline {subsection}{\numberline {0.3.3}Trabajos Relacionados}{14}
-\contentsline {subsection}{\numberline {0.3.4}Hip\'otesis}{14}
-\contentsline {subsection}{\numberline {0.3.5}M\'etricas}{15}
-\contentsline {subsection}{\numberline {0.3.6}Justificaci\'on del Proyecto}{15}
-\contentsline {section}{\numberline {0.4}\textbf {Objetivo General}}{16}
-\contentsline {section}{\numberline {0.5}\textbf {Objetivos Espec\'ificos}}{16}
-\contentsline {section}{\numberline {0.6}\textbf {Alcance y Limitaciones}}{17}
-\contentsline {section}{\numberline {0.7}\textbf {Entregables}}{19}
-\contentsline {section}{\numberline {0.8}\textbf {Metodolog\'ia}}{20}
-\contentsline {subsection}{\numberline {0.8.1}Dise\~no de Experimentos}{20}
-\contentsline {subsubsection}{\numberline {0.8.1.1}Declaraci\'on del Problema}{21}
-\contentsline {subsubsection}{\numberline {0.8.1.2}Factores}{21}
-\contentsline {subsubsection}{\numberline {0.8.1.3}Variables de Respuesta}{23}
-\contentsline {subsubsection}{\numberline {0.8.1.4}Recolecci\'on de Datos}{23}
-\contentsline {subsubsection}{\numberline {0.8.1.5}An\'alisis Estad\'istico}{24}
-\contentsline {subsection}{\numberline {0.8.2}Ambiente de Desarrollo}{24}
-\contentsline {section}{\numberline {0.9}\textbf {Plan de Trabajo}}{25}
-\contentsline {section}{\numberline {0.10}Lista de Tablas}{26}
-\contentsline {section}{\numberline {0.11}Lista de Figuras}{27}
-\contentsline {chapter}{Referencias}{28}
+\contentsline {subsection}{\numberline {0.2.4}Medidas de Distancia para el C\'alculo de la Similitud}{12}
+\contentsline {subsubsection}{\numberline {0.2.4.1}\textbf {Distancia Euclideana}}{12}
+\contentsline {subsubsection}{\numberline {0.2.4.2}DTW (Dynamic Time Warping)}{13}
+\contentsline {subsubsection}{\numberline {0.2.4.3}\textbf {Distancia \enquote {Swale}}}{14}
+\contentsline {section}{\numberline {0.3}\textbf {Propuesta de Proyecto}}{15}
+\contentsline {subsection}{\numberline {0.3.1}Planteamiento del Problema}{15}
+\contentsline {subsection}{\numberline {0.3.2}Propuesta del Proyecto}{16}
+\contentsline {subsection}{\numberline {0.3.3}Trabajos Relacionados}{16}
+\contentsline {subsection}{\numberline {0.3.4}Hip\'otesis}{16}
+\contentsline {subsection}{\numberline {0.3.5}M\'etricas}{17}
+\contentsline {subsection}{\numberline {0.3.6}Justificaci\'on del Proyecto}{17}
+\contentsline {section}{\numberline {0.4}\textbf {Objetivo General}}{18}
+\contentsline {section}{\numberline {0.5}\textbf {Objetivos Espec\'ificos}}{18}
+\contentsline {section}{\numberline {0.6}\textbf {Alcance y Limitaciones}}{19}
+\contentsline {section}{\numberline {0.7}\textbf {Entregables}}{21}
+\contentsline {section}{\numberline {0.8}\textbf {Metodolog\'ia}}{22}
+\contentsline {subsection}{\numberline {0.8.1}Dise\~no de Experimentos}{22}
+\contentsline {subsubsection}{\numberline {0.8.1.1}Declaraci\'on del Problema}{23}
+\contentsline {subsubsection}{\numberline {0.8.1.2}Factores}{23}
+\contentsline {subsubsection}{\numberline {0.8.1.3}Variables de Respuesta}{25}
+\contentsline {subsubsection}{\numberline {0.8.1.4}Recolecci\'on de Datos}{25}
+\contentsline {subsubsection}{\numberline {0.8.1.5}An\'alisis Estad\'istico}{26}
+\contentsline {subsection}{\numberline {0.8.2}Ambiente de Desarrollo}{26}
+\contentsline {section}{\numberline {0.9}\textbf {Plan de Trabajo}}{27}
+\contentsline {section}{\numberline {0.10}Lista de Tablas}{28}
+\contentsline {section}{\numberline {0.11}Lista de Figuras}{29}
+\contentsline {chapter}{Referencias}{31}

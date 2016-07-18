@@ -51,10 +51,46 @@ El an\'alisis y el descubrimiento de patrones sobre series temporales, por defin
 Por otra parte, \textit{\textbf{el c\'alculo de la similitud}} durante la comparaci\'on de dos o m\'as series temporales es considerado un desaf\'io a\'un mucho m\'as crucial en la miner\'ia de series temporales, especialmente cuando se ha realizado previamente una reducci\'on de la dimensionalidad, de la escala o la amplitud a trav\'es del tiempo. La carencia de un alineamiento oportuno sobre el eje tiempo o la amplitud, durante el c\'alculo de la similitud entre dos o m\'as series temporales, es un problema serio porque tiene un impacto directo sobre el resultado de la comparaci\'on. \cite{concepts}.\\
 El c\'alculo de la similitud, es indispensable en la identificaci\'on de segmentos repetitivos contenidos en la serie de tiempo. Estos patrones se conocen como \textit{\textbf{\enquote{motivos}}} o \textit{\textbf{\enquote{motifs}}}, los cuales, pueden definirse como patrones o \textit{ocurrencias frecuentes de un subconjunto de la serie temporal} \cite{main}.\\
 Los motifs pueden considerarse conocimiento puro o significativo, cuando como producto del minado de la serie temporal, se puede utilizar el \textit{motif} para explicar e incluso predecir, con una probabilidad, un fen\'omeno en el corto o el largo plazo.
-\subsection{Medidas de Similitud}
- We can identify motifs (i.e., frequently occurring
-sequential patterns) and build index or hashing mechanisms for an efficient search
-based on such motifs
+\subsection{Medidas de Distancia para el C\'alculo de la Similitud}
+Las medidas de similitud son de vital importancia cuando se requieren ejecutar tareas de an\'alisis y miner\'ia de datos sobre series temporales, tales como descubrimiento de patrones, agrupamiento, clasificaci\'on, descubrimiento de reglas, entre otras. Debido a la naturaleza n\'umerica y continuade de los datos caracter\'isticos de las series temporales, las medidas de similitud, t\'ipicamente se llevan a cabo en forma de aproximaciones.\\
+La complejidad inherente al c\'alculo de las medidas de similitud, imponen normalmente las principales limitaciones y restricciones de capacidad y tiempo de c\'omputo, sobre los algoritmos utilizados en el an\'alisis y la miner\'ia de datos de series temporales \cite{algoanalysis}. Es decir, cuanto m\'as r\'apido y preciso sea el c\'alculo de la medida de similitud definida en el algoritmo, menor ser\'a el tiempo de c\'omputo necesario para la ejecuci\'on del procedimiento completo de miner\'ia de datos sobre las series temporales.\\
+Para el desarrollo de este proyecto, se utilizar\'an espec\'ificamente cinco medidas de distancia: 1- Distancia Euclidiana, 2-  Swale, 3- Spade, 4- EPR y 5- Cubic Spline Interpolation. Cada una de las medidas de distancia se desarrollar\'a a continuaci'on.
+\subsubsection{\textbf{Distancia Euclideana}}
+La distancia Euclidiana es la \textit{distancia \enquote{ordinaria} entre dos puntos de un espacio eucl\'ideo} \cite{euclidean}. 
+La distancia Euclideana tiene la caracter\'istica de ser la medida de distancia m\'as simple y la m\'as utilizada para comparar series temporales \cite{motifs}. Por ejemplo, si se require comparar dos series temporales $Q$ y $C$, de largo $n$, donde $Q = q_1, q_2, ..., q_i, ..., q_n$ y $C = c_1, c_2, ..., c_i, ..., c_n$, se puede utilizar la distancia Euclideana ob\'icua cuya f\'ormula matem\'atica es la siguiente: 
+\begin{equation}
+DE(Q, C) \equiv \sqrt[2]{\sum\limits_{i=1}^{n}ݍ{(q_i - c_i)}^2}
+\end{equation}
+Con se muestra en la \textbf{Figura 2}, la visualizaci\'on del c\'alculo de la distancia Euclideana puede verse entonces como la ra\'iz cuadrada de la suma de diferencia al cuadrado; tal y como se observa en cada l\'inea vertical para cada punto de datos desde $C$ hasta $Q$ y viceversa.
+\begin{center}
+\includegraphics[scale=0.7]{euclidean.png}\\
+\vspace*{10pt}
+\footnotesize{\textbf{Figura 2.} Visualizaci\'on de la distancia Euclidiana entre dos series temporales C y Q.}\\ \textbf{Fuente:} \cite{euclidean}.
+\end{center}
+\subsubsection{DTW (Dynamic Time Warping)}
+En el a\~no 1994, Berndt y Clifford \cite{dtw} proponen \textit{\textbf{\enquote{Dynamic Time Warping}}}. En el an\'alisis de series de tiempo, DTW es un algoritmo para medir el\'asticamente la similitud entre dos secuencias temporales que pueden variar en velocidad y por ende en alineamiento, en relaci\'on con el eje tiempo \cite{concepts}.\\ A diferencia de la distancia Euclidiana, el c\'alculo de la similitud no se hace en forma lineal, por el contrario, las secuencias son \enquote{deformadas} de manera no lineal, para determinar la medida de similitud independiente con respecto a ciertas variaciones en el eje tiempo. Por ejemplo, la tarea de detecci\'on de patrones implica la b\'usqueda de una serie de tiempo $S$, para instancias de una plantilla $T$, donde $S = s_1, s_2, ..., s_i, ..., s_n$ y $T = t_1, t_2, ..., t_i, ..., t_n$.\\
+Las secuencias $S$ y $T$, pueden ser acomodadas para conformar un plano de $m$ por $n$ o un cuadrante, en donde cada punto del cuadrante, $(i, j)$, corresponde a un alineamiento entre elementos $s_i$ y $t_i$.\\
+Un camino $W$, alinea los elementos que pertenecen a $S$ y a $T$, tal que la distancia entre ellos es minimizada.\\
+\begin{equation}
+W = w_1, w_2, ..., w_k
+\end{equation}
+Es decir, $W$ es una secuencia o un camino espec\'ifico de puntos en el cuadrante, en donde cada $w_k$ corresponde a un punto $(i,j)_k$.
+\begin{center}
+\includegraphics[scale=0.7]{dtw.png}\\
+\vspace*{10pt}
+\footnotesize{\textbf{Figura 3.} Visualizaci\'on de un camino w en un cuandrante de $m$ por $n$.}\\ \textbf{Fuente:} \cite{dtw}.
+\end{center}
+\subsubsection{\textbf{Distancia \enquote{Swale}}}
+En \cite{swale}, los autores proponen un modelo de similitud llamado \textbf{\textit{\enquote{Swale}}} (\enquote{\textit{Sequence Weighted ALignmEnt}}, por sus siglas en Ingl\'es); este modelo utiliza un sistema de puntuaci\'on para recompensar las similitudes y penalizar las disimilitudes durante la comparaci\'on de series temporales. El uso de \textit{Swale} requiere necesariamente el ajuste de tres par\'ametros: 1- un umbral de similitud \textbf{$\epsilon$}, 2- un valor o peso $r$ utilizado para recompensar las similitudes y 3- un valor o peso $p$ para penalizar los vacios o disimilitudes \cite{swale}.
+
+
+
+
+
+
+
+
+
 
 
 

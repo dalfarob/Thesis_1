@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  13 JUL 2016 18:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  17 JUL 2016 20:08
 entering extended mode
 **main.tex
 
@@ -272,7 +272,14 @@ LaTeX Warning: Label `arm:tabla' multiply defined.
 
 )
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appb.aux")
+osal\appb.aux"
+
+LaTeX Warning: Label `arm:fig1' multiply defined.
+
+
+LaTeX Warning: Label `arm:fig1' multiply defined.
+
+)
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\biblio.aux"
 
@@ -383,11 +390,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--23
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
-roposal/timeSeries.png>] [10])
+roposal/timeSeries.png>] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-[12]
+Missing character: There is no › in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no › in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no › in font cmr8!
+Missing character: There is no ç in font cmr8!
+Missing character: There is no › in font cmr6!
+Missing character: There is no ç in font cmr6!
+
+[12] <euclidean.png, id=53, 506.6428pt x 207.02344pt>
+File: euclidean.png Graphic file (type png)
+ <use euclidean.png>
+Package pdftex.def Info: euclidean.png used on input line 66.
+(pdftex.def)             Requested size: 354.64755pt x 144.9154pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
+
+ []
+
+[13 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
+roposal/euclidean.png>] <dtw.png, id=60, 511.9125pt x 343.2825pt>
+File: dtw.png Graphic file (type png)
+
+<use dtw.png>
+Package pdftex.def Info: dtw.png used on input line 79.
+(pdftex.def)             Requested size: 358.3363pt x 240.2961pt.
+) [14 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I
+/Proposal/dtw.png>]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\proposal.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
@@ -419,7 +453,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-[13
+[15
 
 
 ]
@@ -437,7 +471,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-[14]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
@@ -452,7 +486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
 
-) [15]
+) [17]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\objectives.tex"
 Overfull \hbox (9.11986pt too wide) in paragraph at lines 8--9
@@ -460,7 +494,7 @@ Overfull \hbox (9.11986pt too wide) in paragraph at lines 8--9
 fico an-te-rior, con el proposito
  []
 
-) [16
+) [18
 
 
 ]
@@ -471,12 +505,12 @@ Overfull \hbox (4.64629pt too wide) in paragraph at lines 15--16
 n de seg-men-tos an-tecedentes
  []
 
-) [17
+) [19
 
 
-] [18]
+] [20]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\deliverables.tex") [19
+osal\deliverables.tex") [21
 
 
 ]
@@ -487,10 +521,10 @@ Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 rension del fenomeno
  []
 
-[20
+[22
 
 
-] [21] <factors.png, id=82, 545.78906pt x 187.45032pt>
+] [23] <factors.png, id=95, 545.78906pt x 187.45032pt>
 File: factors.png Graphic file (type png)
  <use factors.png>
 Package pdftex.def Info: factors.png used on input line 44.
@@ -498,21 +532,21 @@ Package pdftex.def Info: factors.png used on input line 44.
 
 Underfull \vbox (badness 1454) has occurred while \output is active []
 
- [22]
+ [24]
 Overfull \hbox (15.29796pt too wide) in paragraph at lines 60--61
 \OT1/cmr/m/n/12 Para ese proposito, se uti-lizara el metodo es-tadstico, n
 o parametrico lla-mado \OT1/cmr/bx/it/12 \  Kruskal-
  []
 
-[23 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
-roposal/factors.png>]) [24]
+[25 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
+roposal/factors.png>]) [26]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\projectPlan.tex") [25
+osal\projectPlan.tex") [27
 
 
 ]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appa.tex" <deliverables.png, id=98, 641.39626pt x 233.37187pt>
+osal\appa.tex" <deliverables.png, id=110, 641.39626pt x 233.37187pt>
 File: deliverables.png Graphic file (type png)
 
 <use deliverables.png>
@@ -523,7 +557,7 @@ Overfull \hbox (15.35432pt too wide) in paragraph at lines 6--6
  [] 
  []
 
-<projectPlan.png, id=99, 829.59938pt x 148.30406pt>
+<projectPlan.png, id=111, 829.59938pt x 148.30406pt>
 File: projectPlan.png Graphic file (type png)
  <use projectPlan.png>
 Package pdftex.def Info: projectPlan.png used on input line 13.
@@ -533,7 +567,7 @@ Overfull \hbox (80.72632pt too wide) in paragraph at lines 13--13
  [] 
  []
 
-[26
+[28
 
 
  <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/Prop
@@ -545,11 +579,23 @@ File: timeSeries.png Graphic file (type png)
  <use timeSeries.png>
 Package pdftex.def Info: timeSeries.png used on input line 5.
 (pdftex.def)             Requested size: 360.86574pt x 224.69794pt.
- [27
+File: euclidean.png Graphic file (type png)
+ <use euclidean.png>
+Package pdftex.def Info: euclidean.png used on input line 13.
+(pdftex.def)             Requested size: 303.98802pt x 124.21501pt.
+File: dtw.png Graphic file (type png)
+ <use dtw.png>
+Package pdftex.def Info: dtw.png used on input line 21.
+(pdftex.def)             Requested size: 307.14987pt x 205.97107pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29
 
 
 
-])
+] [30])
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\biblio.tex"
 Missing character: There is no ‚ in font cmr12!
@@ -570,7 +616,7 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [28
+ [31
 
 
 
@@ -591,7 +637,17 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [29]) [30]
+ [32] [33]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+) [34]
 
 Package natbib Warning: There were multiply defined citations.
 
@@ -632,28 +688,30 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4752 strings out of 493921
- 75817 string characters out of 3147273
- 142153 words of memory out of 3000000
- 7899 multiletter control sequences out of 15000+200000
- 12727 words of font info for 47 fonts, out of 3000000 for 9000
+ 4779 strings out of 493921
+ 76198 string characters out of 3147273
+ 142217 words of memory out of 3000000
+ 7924 multiletter control sequences out of 15000+200000
+ 13781 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,7n,39p,1141b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (30 pages, 339093 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/symbols/msam7.pfb>
+Output written on main.pdf (34 pages, 398910 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
