@@ -219,7 +219,7 @@
 {\large\bf\choosecase{\@title}}
 \par
 \begin{justify}
-  {\large{Propuesta de Tesis sometida a consideraci\'on del Departamento de Computaci\'on, para optar por el grado de Mag\'ister Scientiae en Computaci\'on, con \'enfasis en Ciencias de la Computaci\'on}}
+  {\large{Propuesta de tesis sometida a consideraci\'on del Departamento de Computaci\'on, para optar por el grado de \textit{Mag\'ister Scientiae en Computaci\'on}, con \'Enfasis en Ciencias de la Computaci\'on}}
 \end{justify}
 \par
 {\large\bf\choosecase{Autor:\\ \@author}}

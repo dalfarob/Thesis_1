@@ -2,49 +2,48 @@
 \documentclass[12pt,twoside]{mitthesis}
 %------------------------------------------------------------------------
 \usepackage{ragged2e}
-%\usepackage{biblatex}
+\usepackage{tocloft}
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage{amssymb}
 \usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{caption}
-\usepackage{tocloft}
 \usepackage{kbordermatrix}
 \usepackage[sort, numbers]{natbib}
 \usepackage [english]{babel}
 \usepackage [autostyle, english = american]{csquotes}
-
 %------------------------------------------------------------------------
 \begin{document}
-
 %------------------------------------------------------------------------
 % Renew commands - Translation
 %------------------------------------------------------------------------
 \MakeOuterQuote{"}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\setcitestyle{square}
+\setlength{\cftfignumwidth}{3em}
 \renewcommand{\labelitemi}{\tiny$\blacksquare$}
 \renewcommand{\bibname}{Referencias} 
 \renewcommand{\abstractname}{Abstract}
 \renewcommand{\contentsname}{Tabla de Contenido}
 \renewcommand{\listtablename}{Lista de Tablas} 
 \renewcommand{\listfigurename}{Lista de Figuras}
+\renewcommand{\thesection}{\arabic{section}}	
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
 \captionsetup[table] {name = Tabla, font=small,skip=0pt} 
-\captionsetup[figure]{name = Figura,font=small,skip=0pt} 
-\setcounter{tocdepth}{4}
-\setcounter{secnumdepth}{4}
-\setcitestyle{square}
-%------------------------------------------------------------------------
-% Add captions
-%------------------------------------------------------------------------
-% \captionsetup[table]{name = Tabla}
+\captionsetup[figure]{name = Figura,font=small,skip=0pt}
 %------------------------------------------------------------------------
 % Document Structure
 %------------------------------------------------------------------------
 \include{cover}
 \include{contents}
 \listoftables
-\let\cleardoublepage\clearpage
+\clearpage
 \listoffigures
-\let\cleardoublepage\clearpage
+\clearpage
+\include{appa}
+\include{appb}
 \include{intro}
 \include{proposal}
 \include{objectives}
@@ -52,8 +51,6 @@
 \include{deliverables}
 \include{method}
 \include{projectPlan}
-\include{appa}
-\include{appb}
 \include{biblio}
 \addcontentsline{toc}{section}{Bibliography}
 %------------------------------------------------------------------------

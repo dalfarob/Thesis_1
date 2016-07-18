@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  17 JUL 2016 20:08
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  18 JUL 2016 01:51
 entering extended mode
 **main.tex
 
@@ -66,6 +66,46 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \@abstractsupervisor=\box27
 \c@savepage=\count89
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip57
+\cftbeforetoctitleskip=\skip58
+\cftaftertoctitleskip=\skip59
+\cftbeforepartskip=\skip60
+\cftpartnumwidth=\skip61
+\cftpartindent=\skip62
+\cftbeforechapskip=\skip63
+\cftchapindent=\skip64
+\cftchapnumwidth=\skip65
+\cftbeforesecskip=\skip66
+\cftsecindent=\skip67
+\cftsecnumwidth=\skip68
+\cftbeforesubsecskip=\skip69
+\cftsubsecindent=\skip70
+\cftsubsecnumwidth=\skip71
+\cftbeforesubsubsecskip=\skip72
+\cftsubsubsecindent=\skip73
+\cftsubsubsecnumwidth=\skip74
+\cftbeforeparaskip=\skip75
+\cftparaindent=\skip76
+\cftparanumwidth=\skip77
+\cftbeforesubparaskip=\skip78
+\cftsubparaindent=\skip79
+\cftsubparanumwidth=\skip80
+\cftbeforeloftitleskip=\skip81
+\cftafterloftitleskip=\skip82
+\cftbeforefigskip=\skip83
+\cftfigindent=\skip84
+\cftfignumwidth=\skip85
+\c@lofdepth=\count90
+\c@lotdepth=\count91
+\cftbeforelottitleskip=\skip86
+\cftafterlottitleskip=\skip87
+\cftbeforetabskip=\skip88
+\cfttabindent=\skip89
+\cfttabnumwidth=\skip90
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
@@ -114,7 +154,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count90
+\Gread@gobject=\count92
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -133,47 +173,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen110
 \caption@hangindent=\dimen111
 )
-\c@ContinuedFloat=\count91
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
-Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
-Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip57
-\cftbeforetoctitleskip=\skip58
-\cftaftertoctitleskip=\skip59
-\cftbeforepartskip=\skip60
-\cftpartnumwidth=\skip61
-\cftpartindent=\skip62
-\cftbeforechapskip=\skip63
-\cftchapindent=\skip64
-\cftchapnumwidth=\skip65
-\cftbeforesecskip=\skip66
-\cftsecindent=\skip67
-\cftsecnumwidth=\skip68
-\cftbeforesubsecskip=\skip69
-\cftsubsecindent=\skip70
-\cftsubsecnumwidth=\skip71
-\cftbeforesubsubsecskip=\skip72
-\cftsubsubsecindent=\skip73
-\cftsubsubsecnumwidth=\skip74
-\cftbeforeparaskip=\skip75
-\cftparaindent=\skip76
-\cftparanumwidth=\skip77
-\cftbeforesubparaskip=\skip78
-\cftsubparaindent=\skip79
-\cftsubparanumwidth=\skip80
-\cftbeforeloftitleskip=\skip81
-\cftafterloftitleskip=\skip82
-\cftbeforefigskip=\skip83
-\cftfigindent=\skip84
-\cftfignumwidth=\skip85
-\c@lofdepth=\count92
-\c@lotdepth=\count93
-\cftbeforelottitleskip=\skip86
-\cftafterlottitleskip=\skip87
-\cftbeforetabskip=\skip88
-\cfttabindent=\skip89
-\cfttabnumwidth=\skip90
+\c@ContinuedFloat=\count93
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\genmisc\kbordermatrix.sty"
 Package: kbordermatrix 2011/09/21 Bordered matrix with brackets
@@ -252,6 +252,24 @@ osal\cover.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\contents.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
+osal\appa.aux"
+
+LaTeX Warning: Label `arm:tabla' multiply defined.
+
+)
+("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
+osal\appb.aux"
+
+LaTeX Warning: Label `arm:fig1' multiply defined.
+
+
+LaTeX Warning: Label `arm:fig1' multiply defined.
+
+
+LaTeX Warning: Label `arm:fig1' multiply defined.
+
+)
+("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\intro.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\proposal.aux")
@@ -266,40 +284,25 @@ osal\method.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\projectPlan.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appa.aux"
-
-LaTeX Warning: Label `arm:tabla' multiply defined.
-
-)
-("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appb.aux"
-
-LaTeX Warning: Label `arm:fig1' multiply defined.
-
-
-LaTeX Warning: Label `arm:fig1' multiply defined.
-
-)
-("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\biblio.aux"
 
 Package natbib Warning: Citation `timewarping' multiply defined.
 
 ))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 18.
+LaTeX Info: Redefining \selectfont on input line 16.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -317,13 +320,13 @@ LaTeX Info: Redefining \selectfont on input line 18.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Package csquotes Info: Allocating character " on input line 23.
+Package csquotes Info: Allocating character " on input line 20.
 
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\cover.tex"
-Overfull \hbox (3.46954pt too wide) in paragraph at lines 10--10
-\OT1/cmr/m/n/14.4 putacion, para op-tar por el grado de Magster Sci-en-tiae 
-en Com-putacion,
+Overfull \hbox (5.39743pt too wide) in paragraph at lines 14--14
+\OT1/cmr/m/n/14.4 putacion, para op-tar por el grado de \OT1/cmr/m/it/14.4 Mag
+ster Sci-en-tiae en Com-putacion\OT1/cmr/m/n/14.4 ,
  []
 
 [1
@@ -334,9 +337,7 @@ en Com-putacion,
 
 ]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\abstract.tex") [3
-
-])
+osal\abstract.tex") [3])
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\contents.tex"
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
@@ -358,42 +359,114 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\main.lot")
 \tf@lot=\write4
-
-("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\main.lof")
-\tf@lof=\write5
  [6
 
 ]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\intro.tex"
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+osal\main.lof")
+\tf@lof=\write5
  [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
+("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
+osal\appa.tex" <deliverables.png, id=28, 641.39626pt x 233.37187pt>
+File: deliverables.png Graphic file (type png)
+
+<use deliverables.png>
+Package pdftex.def Info: deliverables.png used on input line 6.
+(pdftex.def)             Requested size: 448.97432pt x 163.35919pt.
+
+Overfull \hbox (15.35432pt too wide) in paragraph at lines 6--6
+ [] 
+ []
+
+<projectPlan.png, id=30, 829.59938pt x 148.30406pt>
+File: projectPlan.png Graphic file (type png)
+ <use projectPlan.png>
+Package pdftex.def Info: projectPlan.png used on input line 13.
+(pdftex.def)             Requested size: 514.34631pt x 91.94756pt.
+
+Overfull \hbox (80.72632pt too wide) in paragraph at lines 13--13
+ [] 
+ []
+
+[8
+
+
+ <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/Prop
+osal/deliverables.png> <C:/Users/dalfarob/Documents/My Carrier Development/Mast
+er Degree/Tesis I/Proposal/projectPlan.png>])
+("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
+osal\appb.tex" <timeSeries.png, id=37, 515.526pt x 320.99925pt>
+File: timeSeries.png Graphic file (type png)
+
+<use timeSeries.png>
+Package pdftex.def Info: timeSeries.png used on input line 5.
+(pdftex.def)             Requested size: 309.318pt x 192.60103pt.
+ <euclidean.png, id=38, 506.6428pt x 207.02344pt>
+File: euclidean.png Graphic file (type png)
+
+<use euclidean.png>
+Package pdftex.def Info: euclidean.png used on input line 13.
+(pdftex.def)             Requested size: 303.98802pt x 124.21501pt.
+ <dtw.png, id=39, 511.9125pt x 343.2825pt>
+File: dtw.png Graphic file (type png)
+ <use dtw.png>
+Package pdftex.def Info: dtw.png used on input line 21.
+(pdftex.def)             Requested size: 307.14987pt x 205.97107pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<dtw2.png, id=40, 497.60907pt x 222.07968pt>
+File: dtw2.png Graphic file (type png)
+ <use dtw2.png>
+Package pdftex.def Info: dtw2.png used on input line 29.
+(pdftex.def)             Requested size: 298.56773pt x 133.24883pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9
+
+
+
+ <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/Prop
+osal/timeSeries.png> <C:/Users/dalfarob/Documents/My Carrier Development/Master
+ Degree/Tesis I/Proposal/euclidean.png>] [10 <C:/Users/dalfarob/Documents/My Ca
+rrier Development/Master Degree/Tesis I/Proposal/dtw.png> <C:/Users/dalfarob/Do
+cuments/My Carrier Development/Master Degree/Tesis I/Proposal/dtw2.png>])
+("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
+osal\intro.tex"
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [11
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
  []
 
-[8] <timeSeries.png, id=31, 515.526pt x 320.99925pt>
+[12]
 File: timeSeries.png Graphic file (type png)
  <use timeSeries.png>
 Package pdftex.def Info: timeSeries.png used on input line 16.
 (pdftex.def)             Requested size: 360.86574pt x 224.69794pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
-roposal/timeSeries.png>] [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [13]
+[14]
+Underfull \vbox (badness 4416) has occurred while \output is active []
 
- [11]
+ [15]
 Missing character: There is no › in font cmr12!
 Missing character: There is no ç in font cmr12!
 Missing character: There is no › in font cmr12!
@@ -403,25 +476,30 @@ Missing character: There is no ç in font cmr8!
 Missing character: There is no › in font cmr6!
 Missing character: There is no ç in font cmr6!
 
-[12] <euclidean.png, id=53, 506.6428pt x 207.02344pt>
+[16]
 File: euclidean.png Graphic file (type png)
  <use euclidean.png>
 Package pdftex.def Info: euclidean.png used on input line 66.
 (pdftex.def)             Requested size: 354.64755pt x 144.9154pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-[13 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
-roposal/euclidean.png>] <dtw.png, id=60, 511.9125pt x 343.2825pt>
+[17]
 File: dtw.png Graphic file (type png)
-
-<use dtw.png>
+ <use dtw.png>
 Package pdftex.def Info: dtw.png used on input line 79.
 (pdftex.def)             Requested size: 358.3363pt x 240.2961pt.
-) [14 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I
-/Proposal/dtw.png>]
+File: dtw2.png Graphic file (type png)
+ <use dtw2.png>
+Package pdftex.def Info: dtw2.png used on input line 89.
+(pdftex.def)             Requested size: 348.32397pt x 155.45471pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18])
+[19]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\proposal.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
@@ -453,7 +531,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-[15
+[20
 
 
 ]
@@ -471,7 +549,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-[16]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
@@ -486,7 +564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
 
-) [17]
+) [22]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\objectives.tex"
 Overfull \hbox (9.11986pt too wide) in paragraph at lines 8--9
@@ -494,7 +572,7 @@ Overfull \hbox (9.11986pt too wide) in paragraph at lines 8--9
 fico an-te-rior, con el proposito
  []
 
-) [18
+) [23
 
 
 ]
@@ -505,12 +583,12 @@ Overfull \hbox (4.64629pt too wide) in paragraph at lines 15--16
 n de seg-men-tos an-tecedentes
  []
 
-) [19
+) [24
 
 
-] [20]
+] [25]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\deliverables.tex") [21
+osal\deliverables.tex") [26
 
 
 ]
@@ -521,10 +599,10 @@ Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 rension del fenomeno
  []
 
-[22
+[27
 
 
-] [23] <factors.png, id=95, 545.78906pt x 187.45032pt>
+] [28] <factors.png, id=118, 545.78906pt x 187.45032pt>
 File: factors.png Graphic file (type png)
  <use factors.png>
 Package pdftex.def Info: factors.png used on input line 44.
@@ -532,70 +610,19 @@ Package pdftex.def Info: factors.png used on input line 44.
 
 Underfull \vbox (badness 1454) has occurred while \output is active []
 
- [24]
+ [29]
 Overfull \hbox (15.29796pt too wide) in paragraph at lines 60--61
 \OT1/cmr/m/n/12 Para ese proposito, se uti-lizara el metodo es-tadstico, n
 o parametrico lla-mado \OT1/cmr/bx/it/12 \  Kruskal-
  []
 
-[25 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
-roposal/factors.png>]) [26]
+[30 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
+roposal/factors.png>]) [31]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\projectPlan.tex") [27
+osal\projectPlan.tex") [32
 
 
 ]
-("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appa.tex" <deliverables.png, id=110, 641.39626pt x 233.37187pt>
-File: deliverables.png Graphic file (type png)
-
-<use deliverables.png>
-Package pdftex.def Info: deliverables.png used on input line 6.
-(pdftex.def)             Requested size: 448.97432pt x 163.35919pt.
-
-Overfull \hbox (15.35432pt too wide) in paragraph at lines 6--6
- [] 
- []
-
-<projectPlan.png, id=111, 829.59938pt x 148.30406pt>
-File: projectPlan.png Graphic file (type png)
- <use projectPlan.png>
-Package pdftex.def Info: projectPlan.png used on input line 13.
-(pdftex.def)             Requested size: 514.34631pt x 91.94756pt.
-
-Overfull \hbox (80.72632pt too wide) in paragraph at lines 13--13
- [] 
- []
-
-[28
-
-
- <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/Prop
-osal/deliverables.png> <C:/Users/dalfarob/Documents/My Carrier Development/Mast
-er Degree/Tesis I/Proposal/projectPlan.png>])
-("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appb.tex"
-File: timeSeries.png Graphic file (type png)
- <use timeSeries.png>
-Package pdftex.def Info: timeSeries.png used on input line 5.
-(pdftex.def)             Requested size: 360.86574pt x 224.69794pt.
-File: euclidean.png Graphic file (type png)
- <use euclidean.png>
-Package pdftex.def Info: euclidean.png used on input line 13.
-(pdftex.def)             Requested size: 303.98802pt x 124.21501pt.
-File: dtw.png Graphic file (type png)
- <use dtw.png>
-Package pdftex.def Info: dtw.png used on input line 21.
-(pdftex.def)             Requested size: 307.14987pt x 205.97107pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[29
-
-
-
-] [30])
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\biblio.tex"
 Missing character: There is no ‚ in font cmr12!
@@ -616,8 +643,7 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [31
-
+ [33
 
 
 
@@ -637,7 +663,7 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [32] [33]
+ [34] [35]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -647,7 +673,7 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
-) [34]
+) [36]
 
 Package natbib Warning: There were multiply defined citations.
 
@@ -658,6 +684,10 @@ osal\main.aux"
 osal\cover.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\contents.aux")
+("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
+osal\appa.aux")
+("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
+osal\appb.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\intro.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
@@ -673,10 +703,6 @@ osal\method.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\projectPlan.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appa.aux")
-("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appb.aux")
-("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\biblio.aux"
 
 Package natbib Warning: Citation(s) may have changed.
@@ -688,13 +714,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4779 strings out of 493921
- 76198 string characters out of 3147273
- 142217 words of memory out of 3000000
- 7924 multiletter control sequences out of 15000+200000
- 13781 words of font info for 52 fonts, out of 3000000 for 9000
+ 4788 strings out of 493921
+ 76303 string characters out of 3147273
+ 142186 words of memory out of 3000000
+ 7931 multiletter control sequences out of 15000+200000
+ 14474 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,7n,39p,1141b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,39p,1136b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
@@ -707,11 +733,12 @@ r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (34 pages, 398910 bytes).
+fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/symbols/msam7.pfb>
+Output written on main.pdf (36 pages, 459136 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 195 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
