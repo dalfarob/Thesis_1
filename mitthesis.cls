@@ -21,8 +21,8 @@
 %% leftblank option
 \newif\if@leftblank \@leftblankfalse
 
-\DeclareOption{leftblank}{\typeout{Intentionally Leaving Pages Blank}
-\@leftblanktrue}
+%\DeclareOption{leftblank}{\typeout{Intentionally Leaving Pages Blank}
+%\@leftblanktrue}
 
 %  Thesis looks much like report
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
@@ -196,7 +196,6 @@
 
 % Usage: \supervisor{name}{title}
 \newbox\@titlesupervisor 	\newbox\@abstractsupervisor
-
 \def\supervisor#1#2{\setbox\@titlesupervisor\vbox
 {\unvbox\@titlesupervisor \vskip 10pt% plus 1fil minus 1fil
 \def\baselinestretch{1}\large
@@ -212,14 +211,20 @@
 \def\degreeyear#1{\gdef\@degreeyear{#1}}
 
 \def\maketitle{\begin{titlepage}
-{\def\baselinestretch{1.2}\Large\bf \choosecase{\MIT}}\\
-{\large\bf \choosecase{\@department}}\\
+{\def\baselinestretch{1.2}\huge\choosecase{\MIT}}\\
+{\Large\bf \choosecase{\@department}}\\
 {\large\choosecase{\@degree}}
 \par
-{\large\bf\choosecase{\@title}}
+\begin{centering}
+{\large\bf{Cubic Spline Interpolation as a distance measure used in the discovery of meaningful rules from complex time series in presence of noise.}}
+\end{centering}
+\par
+\begin{centering}
+{\large\choosecase{\@title}}
+\end{centering}
 \par
 \begin{justify}
-  {\large{Propuesta de tesis sometida a consideraci\'on del Departamento de Computaci\'on, para optar por el grado de \textit{Mag\'ister Scientiae en Computaci\'on}, con \'Enfasis en Ciencias de la Computaci\'on}}
+  {\large{Propuesta de tesis sometida a consideraci\'on del Departamento de Computaci\'on, para optar por el grado de \textit{Mag\'ister Scientiae en Computaci\'on}, con \'enfasis en Ciencias de la Computaci\'on.}}
 \end{justify}
 \par
 {\large\bf\choosecase{Autor:\\ \@author}}
@@ -228,25 +233,13 @@
 \par
 {\large\choosecase{\@degreemonth\ \@degreeyear}}
 \end{titlepage}}
-
 % this environment should probably be called abstract, but we want people to also be able to get at the more basic abstract environment
-\def\abstractpage{\cleardoublepage
-{\centering\large{\bf \@title} \\
-por \\
-\@author \\[\baselineskip]}
-\par
-\begin{justify}
-\def\baselinestretch{1}\@normalsize
-Sometida a consideraci\'on de la \@department, presentado
-en \@thesisdate, en cumplimiento parcial de los requerimientos establecidos por el \@degree
-\end{justify}
-\begin{abstract}}
+\def\abstractpage{\begin{abstract}}
 
 %% Changed from \unvbox to \unvcopy for use with multiple copies of abstract
 %% page.
 %% Krishna Sethuraman (1990)
-\def\endabstractpage{\end{abstract}\noindent
- \unvcopy\@abstractsupervisor \newpage}
+\def\endabstractpage{\end{abstract} \newpage}
 
 %% This counter is used to save the page number for the second copy of
 %% the abstract.
@@ -258,9 +251,9 @@ en \@thesisdate, en cumplimiento parcial de los requerimientos establecidos por 
 % between lines that you want space between, the space will stretch so
 % that the title page fills up the entire page.
 \def\titlepage{\cleardoublepage\centering
-  \thispagestyle{empty}
-  \parindent 0pt \parskip 10pt plus 1fil minus 1fil
-  \def\baselinestretch{1}\@normalsize\vbox to \vsize\bgroup\vbox to 9in\bgroup}
+ \thispagestyle{empty}
+\parindent 0pt \parskip 10pt plus 1fil minus 1fil
+\def\baselinestretch{1}\@normalsize\vbox to \vsize\bgroup\vbox to 9in\bgroup}
 % The \kern0pt pushes any depth into the height.  Thanks to Richard Stone.
 \def\endtitlepage{\par\kern 0pt\egroup\vss\egroup\newpage}
 
@@ -276,6 +269,6 @@ en \@thesisdate, en cumplimiento parcial de los requerimientos establecidos por 
 \def\signature#1#2{\par\noindent#1\dotfill\null\\*
   {\raggedleft #2\par}}
 
-\def\abstract{\subsection*{Resumen}\small\def\baselinestretch{1}\@normalsize}
+\def\abstract{\small\def\baselinestretch{1}\@normalsize}
 \def\endabstract{\par}
 
