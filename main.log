@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  24 JUL 2016 12:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  24 JUL 2016 15:01
 entering extended mode
 **main.tex
 
@@ -429,7 +429,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+)
+Overfull \hbox (25.18677pt too wide) in paragraph at lines 15--15
+ [][] []\OT1/cmr/bx/n/12 DTW basado en Cu-bic Spline In-ter-po-la-tion (SIDTW) 
+[]  
+ []
+
+[3
 
 
 ])
@@ -511,10 +517,19 @@ Package pdftex.def Info: spade.png used on input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<brainsignal.png, id=39, 554.07pt x 630.10406pt>
+<cdtw.png, id=39, 317.988pt x 204.765pt>
+File: cdtw.png Graphic file (type png)
+ <use cdtw.png>
+Package pdftex.def Info: cdtw.png used on input line 45.
+(pdftex.def)             Requested size: 317.98721pt x 204.76448pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<brainsignal.png, id=40, 554.07pt x 630.10406pt>
 File: brainsignal.png Graphic file (type png)
  <use brainsignal.png>
-Package pdftex.def Info: brainsignal.png used on input line 45.
+Package pdftex.def Info: brainsignal.png used on input line 53.
 (pdftex.def)             Requested size: 332.44456pt x 378.06535pt.
 
 
@@ -531,16 +546,17 @@ rier Development/Master Degree/Tesis I/Proposal/dtw.png> <C:/Users/dalfarob/Doc
 uments/My Carrier Development/Master Degree/Tesis I/Proposal/dtw2.png> <C:/User
 s/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/Proposal/spad
 e.png>] [10 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/T
-esis I/Proposal/brainsignal.png>]
+esis I/Proposal/cdtw.png>] [11 <C:/Users/dalfarob/Documents/My Carrier Developm
+ent/Master Degree/Tesis I/Proposal/brainsignal.png>]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\intro.tex"
 Underfull \vbox (badness 1546) has occurred while \output is active []
 
- [11
+ [12
 
 
 ])
-[12]
+[13]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\theory.tex"
 File: timeSeries.png Graphic file (type png)
@@ -555,7 +571,7 @@ Overfull \hbox (10.03296pt too wide) in paragraph at lines 9--15
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
+ [14
 
 
 ]
@@ -566,76 +582,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [15]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[15] [16] [17]
-Underfull \vbox (badness 8056) has occurred while \output is active []
-
- [18]
+[16] [17] [18] [19]
 File: euclidean.png Graphic file (type png)
-
-<use euclidean.png>
+ <use euclidean.png>
 Package pdftex.def Info: euclidean.png used on input line 67.
 (pdftex.def)             Requested size: 354.64755pt x 144.9154pt.
- [19]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-File: dtw.png Graphic file (type png)
-<use dtw.png>
-Package pdftex.def Info: dtw.png used on input line 83.
-(pdftex.def)             Requested size: 358.3363pt x 240.2961pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [20]
-File: dtw2.png Graphic file (type png)
-
-<use dtw2.png>
-Package pdftex.def Info: dtw2.png used on input line 93.
-(pdftex.def)             Requested size: 348.32397pt x 155.45471pt.
- [21]
 File: spade.png Graphic file (type png)
  <use spade.png>
-Package pdftex.def Info: spade.png used on input line 125.
+Package pdftex.def Info: spade.png used on input line 96.
 (pdftex.def)             Requested size: 278.59827pt x 121.41248pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1968) has occurred while \output is active []
 
- [22]
-Overfull \hbox (10.93488pt too wide) detected at line 145
+ [21]
+Overfull \hbox (10.93488pt too wide) detected at line 116
 []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-File: brainsignal.png Graphic file (type png)
+ [22]
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
-<use brainsignal.png>
-Package pdftex.def Info: brainsignal.png used on input line 153.
+ []
+
+File: dtw.png Graphic file (type png)
+<use dtw.png>
+Package pdftex.def Info: dtw.png used on input line 127.
+(pdftex.def)             Requested size: 358.3363pt x 240.2961pt.
+ [24]
+File: dtw2.png Graphic file (type png)
+ <use dtw2.png>
+Package pdftex.def Info: dtw2.png used on input line 137.
+(pdftex.def)             Requested size: 348.32397pt x 155.45471pt.
+
+Overfull \hbox (0.41348pt too wide) in paragraph at lines 148--150
+[]\OT1/cmr/bx/n/12 D\OT1/cmr/m/n/12 ynamic \OT1/cmr/bx/n/12 T\OT1/cmr/m/n/12 im
+e \OT1/cmr/bx/n/12 W\OT1/cmr/m/n/12 arping basado en Cu-bic \OT1/cmr/bx/n/12 S\
+OT1/cmr/m/n/12 pline \OT1/cmr/bx/n/12 I\OT1/cmr/m/n/12 nterpolation (SIDTW), ta
+mbien
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+[25]
+File: cdtw.png Graphic file (type png)
+ <use cdtw.png>
+Package pdftex.def Info: cdtw.png used on input line 173.
+(pdftex.def)             Requested size: 254.39073pt x 163.8122pt.
+ [26]
+File: brainsignal.png Graphic file (type png)
+ <use brainsignal.png>
+Package pdftex.def Info: brainsignal.png used on input line 184.
 (pdftex.def)             Requested size: 387.84636pt x 441.06984pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-[25]
-Overfull \hbox (1.05605pt too wide) in paragraph at lines 159--159
+ [27]
+[28]
+Overfull \hbox (1.05605pt too wide) in paragraph at lines 190--190
 []\OT1/cmr/m/n/12 Matematicamente, podra definirse en-tonces como una sucesi
 on de vari-ables aleato-
  []
 
-) [26]
+) [29]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\proposal.tex" [27
+osal\proposal.tex" [30
 
 
-] [28] [29]) [30]
+] [31] [32]) [33]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\objectives.tex"
 Overfull \hbox (9.11986pt too wide) in paragraph at lines 9--10
@@ -643,7 +669,7 @@ Overfull \hbox (9.11986pt too wide) in paragraph at lines 9--10
 fico an-te-rior, con el proposito
  []
 
-) [31
+) [34
 
 
 ]
@@ -654,12 +680,12 @@ Overfull \hbox (4.64629pt too wide) in paragraph at lines 16--17
 n de seg-men-tos an-tecedentes
  []
 
-) [32
+) [35
 
 
-] [33]
+] [36]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\deliverables.tex") [34
+osal\deliverables.tex") [37
 
 
 ]
@@ -670,17 +696,17 @@ Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 rension del fenomeno
  []
 
-[35
+[38
 
 
-] [36] [37] <factors.png, id=151, 545.78906pt x 187.45032pt>
+] [39] [40] <factors.png, id=162, 545.78906pt x 187.45032pt>
 File: factors.png Graphic file (type png)
 
 <use factors.png>
 Package pdftex.def Info: factors.png used on input line 44.
 (pdftex.def)             Requested size: 382.04973pt x 131.21431pt.
- [38 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/
-Proposal/factors.png>] [39]) [40]
+ [41 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/
+Proposal/factors.png>] [42]) [43]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\projectPlan.tex"
 File: deliverables.png Graphic file (type png)
@@ -696,12 +722,31 @@ Overfull \hbox (56.2826pt too wide) in paragraph at lines 11--14
  [] 
  []
 
-) [41
+) [44
 
 
 ]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\biblio.tex" [42
+osal\biblio.tex"
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [45
 
 
 
@@ -721,26 +766,7 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
- [43]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
- [44] [45]
+ [46] [47]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -756,7 +782,7 @@ Underfull \hbox (badness 1515) in paragraph at lines 112--113
 ity of British
  []
 
-) [46]
+) [48]
 
 Package natbib Warning: There were multiply defined citations.
 
@@ -799,10 +825,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5940 strings out of 493921
- 93036 string characters out of 3147273
- 164477 words of memory out of 3000000
- 9049 multiletter control sequences out of 15000+200000
+ 5946 strings out of 493921
+ 93105 string characters out of 3147273
+ 164486 words of memory out of 3000000
+ 9054 multiletter control sequences out of 15000+200000
  13769 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,10n,39p,1421b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -821,9 +847,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (46 pages, 781092 bytes).
+Output written on main.pdf (48 pages, 817428 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
+ 241 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

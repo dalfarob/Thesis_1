@@ -55,7 +55,7 @@ Las medidas de similitud son de vital importancia cuando se ejecutan tareas de a
 Debido a la naturaleza n\'umerica y continua de de los datos caracter\'isticos de las series temporales, las medidas de similitud, t\'ipicamente se llevan a cabo en forma de aproximaciones \cite{distancecomparison}.\par
 Los estudios existentes sobre series de tiempo se basan en cuatro categor\'ias de funciones de distancia \cite{measurements}. La primer categor\'ia consiste en las \textit{Lp-normas} o \enquote{\textit{Lp-norms}}. Son funciones de distancia m\'etricas o lineales, que no soportar cambios en el desplazamiento local del eje tiempo, por ejemplo, la distancia Euclideana o la distancia Manhatthan. La segunda categor\'ia, por otra parte, se conoce como \textit{medidas el\'asticas}, y consisten en funciones de distancia capaces de lidiar con desplazamientos locales en el eje tiempo, pero no son m\'etricas o lineales. La categor\'ia tres, son medidas de distancia basadas en un umbral (por ejemplo TQuEST \cite{distancecomparison}). Por \'ultimo, la categor\'ia cuatro corresponde a todas aquellas medidas de distancia basadas en la \textit{\enquote{forma}} o en un patr\'on de la serie temporal, tal es el caso de SpADe \cite{spade}. \par
 La complejidad inherente al c\'alculo de las medidas de similitud, imponen normalmente las principales limitaciones y restricciones de capacidad y tiempo de c\'omputo, sobre los algoritmos utilizados en el an\'alisis y la miner\'ia de datos de series temporales \cite{algoanalysis}. Es decir, cuanto m\'as r\'apido y preciso sea el c\'alculo de la medida de similitud definida en el algoritmo, menor ser\'a el tiempo de c\'omputo necesario para la ejecuci\'on del procedimiento completo de miner\'ia de datos sobre las series temporales.\par
-Para el desarrollo de este proyecto, se utilizar\'an espec\'ificamente cinco medidas de distancia: 1- Distancia Euclidiana, 2- Swale, 3- Spade, 4- EPR y 5- Cubic Spline Interpolation. Cada una de las medidas de distancia anteriormente mencionadas se detallan a continuaci\'on, incluyendo adem\'as, Dynamic Time Warping (DTW).
+Para el desarrollo de este proyecto, se utilizar\'an espec\'ificamente cinco medidas de distancia: 1- Distancia Euclidiana, 2- Swale, 3- Spade, 4- EPR y 5- Cubic Spline Interpolation. Cada una de las medidas de distancia anteriormente mencionadas se detallan a continuaci\'on, incluyendo adem\'as, Dynamic Time Warping (DTW) como un concepto previo fundamental, antes de exponer Cubic Spline Interpolation como medida de distancia.
 \subsubsection{\textbf{Distancia Euclideana}}
 La distancia Euclidiana es la \textit{distancia \enquote{ordinaria} entre dos puntos de un espacio eucl\'ideo} \cite{euclidean}. 
 La distancia Euclideana tiene la caracter\'istica de ser la medida de distancia m\'as simple y la m\'as utilizada para comparar series temporales \cite{motifs}. Por ejemplo, si se require comparar dos series temporales $Q$ y $C$, de largo $n$, donde\\ $Q = q_1, q_2, ..., q_i, ..., q_n$ y $C = c_1, c_2, ..., c_i, ..., c_n$, se puede utilizar la distancia Euclidiana ob\'icua cuya f\'ormula matem\'atica es la siguiente: 
@@ -70,35 +70,6 @@ Con se muestra en la \textbf{Figura 2}, la visualizaci\'on del c\'alculo de la d
 \footnotesize{\textbf{Figura 2.} Visualizaci\'on de la distancia Euclidiana entre dos series temporales C y Q.}\\ 
 \end{tabular}{}
 \textbf{Fuente:} \cite{euclidean}.
-\end{center}
-\subsubsection{DTW (Dynamic Time Warping)}
-En el a\~no 1994, Berndt y Clifford \cite{dtw} proponen \textit{\textbf{\enquote{Dynamic Time Warping}}}. En el an\'alisis de series de tiempo, DTW es un algoritmo para medir el\'asticamente la similitud entre dos secuencias temporales que pueden variar en velocidad y por ende en alineamiento, en relaci\'on con el eje tiempo \cite{concepts}.\par A diferencia de la distancia Euclidiana, el c\'alculo de la similitud no se hace en forma lineal, por el contrario, las secuencias son \enquote{deformadas} de manera no li\-neal, para determinar la medida de similitud independiente con respecto a ciertas variaciones en el eje tiempo \cite{dtw}. Por ejemplo, la tarea de detecci\'on de patrones implica la b\'usqueda de una serie de tiempo $S$, para instancias de una plantilla $T$, donde $S = s_1, s_2, ..., s_i, ..., s_n$ y $T = t_1, t_2, ..., t_i, ..., t_n$.\par
-Las secuencias $S$ y $T$, pueden ser acomodadas para conformar un plano de $m$ por $n$ o un cuadrante, en donde cada punto del cuadrante, $(i, j)$, corresponde a un alineamiento entre elementos $s_i$ y $t_i$.\par
-Un camino $W$, alinea los elementos que pertenecen a $S$ y a $T$, tal que la distancia entre ellos es minimizada.\\
-\begin{equation}
-W = w_1, w_2, ..., w_k
-\end{equation}
-Es decir, $W$ es una secuencia o un camino espec\'ifico de puntos en el cuadrante, en donde cada $w_k$ corresponde a un punto $(i,j)_k$, como se muestra en la figura 3.
-\begin{center}
-\includegraphics[scale=0.7]{dtw.png}\\
-\vspace*{10pt}
-\footnotesize{\textbf{Figura 3.} Visualizaci\'on de un camino w en un cuandrante de $m$ por $n$.}\\ \textbf{Fuente:} \cite{dtw}.
-\end{center}
-Posteriormente, por definici\'on, se debe definir una medida de distancia. En \cite{dtw}, los autores proponen $\delta(i,j) = (s_i - t_j)^2$. Una vez definida la medida de distancia, se puede definir formalmente DTW como la minimizaci\'on sobre los caminos o rutas potenciales \textbf{\textit{no lineales}}, basados en la distancia acumulada para cada ruta, en donde $\delta$ es una medida de distancia entre dos puntos de datos o elementos de las series temporales.
-\begin{equation}
-DTW (S,T) = min_W[\sum\limits_{k=1}^{p}\delta(w_k)]
-\end{equation}
-En la Figura 4, se muestra observa un ejemplo claro de la forma que adoptan las deformaciones no lineales calculadas mediante el algoritmo DTW, para adaptar la diferencia de los puntos de datos con respecto al eje tiempo.
-\begin{center}
-\includegraphics[scale=0.7]{dtw2.png}\\
-\vspace*{10pt}
-\footnotesize{
-\begin{tabular}{l}
-\textbf{Figura 4.} Visualizaci\'on de dos segmentos de series temporales
-acerca del comportamiento\\ de insectos se alinean con invarianza a la deformaci\'on computada mediante el uso de DTW.
-\end{tabular}{}
-}
-\textbf{Fuente:} \cite{dtw}.
 \end{center}
 \subsubsection{\textbf{Distancia \enquote{Swale}}}
 En \cite{swale}, los autores proponen un modelo de similitud llamado \textbf{\textit{\enquote{Swale}}} (\enquote{\textit{Sequence Weighted ALignmEnt}}, por sus siglas en Ingl\'es); este modelo utiliza un sistema de puntuaci\'on para recompensar las similitudes y penalizar las disimilitudes durante la comparaci\'on de series temporales. El uso del marco de trabajo \textit{Swale}, requiere necesariamente del ajuste de tres par\'ametros: 1- un umbral de similitud \textbf{$\epsilon$}, 2- un valor o peso $r$ utilizado para recompensar las similitudes y 3- un valor o peso $p$ para penalizar los vacios o disimilitudes \cite{swale}.\par
@@ -144,7 +115,67 @@ $Swale(R, S) =$
 \end{dcases}
 \]
 Donde $g$ es un valor constante, normalmente igual a 0 seg\'un la recomendaci\'on de los autores en \cite{erp}. Los autores, definen ERP como una variante de \textit{L1-norm}, con la excepci\'on de que esta medida de distancia si es capaz de soportar el desplazamiento local en el eje tiempo, en otras palabras, lo autores lo consideran \enquote{el matrimonio perfecto} entre una medidas de distancia \enquote{L1-norm} y una medida de distancia de categor\'ia el\'astica, ya que se asemeja a \enquote{L1-norm} en ser una funci\'on de distancia m\'etrica, pero tambi\'en, se asemeja a distancias el\'asticas como DTW, en su capacidad misma de poder soportar los desplazamientos o transiciones en el eje tiempo \cite{erp}.
-\subsubsection{\textbf{Cubic Spline Interpolation}}
+\subsubsection{DTW (Dynamic Time Warping)}
+En el a\~no 1994, Berndt y Clifford \cite{dtw} proponen \textit{\textbf{\enquote{Dynamic Time Warping}}}. En el an\'alisis de series de tiempo, DTW es un algoritmo para medir el\'asticamente la similitud entre dos secuencias temporales que pueden variar en velocidad y por ende en alineamiento, en relaci\'on con el eje tiempo \cite{concepts}.\par A diferencia de la distancia Euclidiana, el c\'alculo de la similitud no se hace en forma lineal, por el contrario, las secuencias son \enquote{deformadas} de manera no li\-neal, para determinar la medida de similitud independiente con respecto a ciertas variaciones en el eje tiempo \cite{dtw}. Por ejemplo, la tarea de detecci\'on de patrones implica la b\'usqueda de una serie de tiempo $S$, para instancias de una plantilla $T$, donde $S = s_1, s_2, ..., s_i, ..., s_n$ y $T = t_1, t_2, ..., t_i, ..., t_n$.\par
+Las secuencias $S$ y $T$, pueden ser acomodadas para conformar un plano de $m$ por $n$ o un cuadrante, en donde cada punto del cuadrante, $(i, j)$, corresponde a un alineamiento entre elementos $s_i$ y $t_i$.\par
+Un camino $W$, alinea los elementos que pertenecen a $S$ y a $T$, tal que la distancia entre ellos es minimizada.\\
+\begin{equation}
+W = w_1, w_2, ..., w_k
+\end{equation}
+Es decir, $W$ es una secuencia o un camino espec\'ifico de puntos en el cuadrante, en donde cada $w_k$ corresponde a un punto $(i,j)_k$, como se muestra en la figura 3.
+\begin{center}
+\includegraphics[scale=0.7]{dtw.png}\\
+\vspace*{10pt}
+\footnotesize{\textbf{Figura 3.} Visualizaci\'on de un camino w en un cuandrante de $m$ por $n$.}\\ \textbf{Fuente:} \cite{dtw}.
+\end{center}
+Posteriormente, por definici\'on, se debe definir una medida de distancia. En \cite{dtw}, los autores proponen $\delta(i,j) = (s_i - t_j)^2$. Una vez definida la medida de distancia, se puede definir formalmente DTW como la minimizaci\'on sobre los caminos o rutas potenciales \textbf{\textit{no lineales}}, basados en la distancia acumulada para cada ruta, en donde $\delta$ es una medida de distancia entre dos puntos de datos o elementos de las series temporales.
+\begin{equation}
+DTW (S,T) = min_W[\sum\limits_{k=1}^{p}\delta(w_k)]
+\end{equation}
+En la Figura 4, se muestra observa un ejemplo claro de la forma que adoptan las deformaciones no lineales calculadas mediante el algoritmo DTW, para adaptar la diferencia de los puntos de datos con respecto al eje tiempo.
+\begin{center}
+\includegraphics[scale=0.7]{dtw2.png}\\
+\vspace*{10pt}
+\footnotesize{
+\begin{tabular}{l}
+\textbf{Figura 4.} Visualizaci\'on de dos segmentos de series temporales
+acerca del comportamiento\\ de insectos se alinean con invarianza a la deformaci\'on computada mediante el uso de DTW.
+\end{tabular}{}
+}
+\textbf{Fuente:} \cite{dtw}.
+\end{center}
+\subsubsection{\textbf{DTW basado en Cubic Spline Interpolation (SIDTW)}}
+\textbf{D}ynamic \textbf{T}ime \textbf{W}arping basado en Cubic \textbf{S}pline \textbf{I}nterpolation (SIDTW), tambi\'en conocido como \enquote{Cubic Dynamic Time Warping} (CDTW),  fue propuesto recientemente como una novedosa y mejorada extensi\'on de DTW \cite{DTWcubicsplineinterpolation}.\\\\
+\textbf{Acerca de la funci\'on SIDTW:}\\
+Segun los autores en \cite{DTWcubicsplineinterpolation}, inicialmente, se debe calcular la derivada de cada punto de la series de temporal mediante \enquote{Cubic Spline Interpolation}, a este proceso se le conoce como \enquote{\textbf{interpolaci\'on}}. Lo anterior es necesario para reemplazar las derivadas que fueron estimadas por Derivative Dymanic Time Warping (DDTW). Despu\'es de la interpolaci\'on, se utilizan las secuencias basadas en derivadas para representar las series de tiempo originales, para lograr una mejor descripci\'on la tendencia original de las series temporales, haci\'endolas m\'as f\'acil de deformar (\enquote{warping}) \cite{DTWcubicsplineinterpolation}.\par
+En \cite{DTWcubicsplineinterpolation} se argumenta que mediante el uso de esta medida de distancia, se pueden producir menores singularidades (menos \enquote{warping}) y obtener en cambio, la mejor ruta de deformaci\'on posible, con el menor largo. Adem\'as, se considera una versi\'on de medida de distancia alternativa de DTW cuando los conjuntos de datos de las series temporales no son adecuados para ser medidos a trav\'es de DTW \cite{DTWcubicsplineinterpolation}.\par
+La principal motivaci\'on de SIDTW como propuesta es en esencia obtener derivadas mucho m\'as precisas para reflejar mejor la tendencia de las series de tiempo que estan siendo comparadas y as\'i, mejorar tambi\'en la efectividad de la medida de similitud para las distancias acumuladas de tres elementos adyacentes \cite{DTWcubicsplineinterpolation}.\par
+Por ejemplo,
+\[
+	{r(i,j) = d(i,j) + min}
+\begin{dcases}
+    {r(i,j - 1)}	\\
+    {r(i - 1,j - 1)}\\
+    {r(i - 1,j)}    \\
+\end{dcases}
+\]
+Sin embargo, en DDTW, los pasos son los mismos que en DTW, adem\'as de la diferencia de los cuadrados entre $q_i$ y $c_j$.\par
+La estimaci\'on de la derivada $d'(i,j)$ en DDTW es utizada para reemplazar la distancia $d(i,j)$ en DTW. De esta forma, tenemos la siguiente derivada:
+\begin{equation}
+d'(i,j) = (d_i(q) - d_j(c))^2
+\end{equation}
+donde, 
+\begin{equation}
+d_l(x) = \frac{((x_l - x_{l-1}) + (x_{l-1} - x_{l-1})/2)}{2}
+\end{equation}
+Como se muestra en la siguiente imagen, una de las principales ventajas de CDTW es el hecho de que se pueden evitar la creaci\'on de deformaciones innecesarias.
+\begin{center}
+\includegraphics[scale=0.8]{cdtw.png}\\
+\vspace*{10pt}
+\footnotesize{\textbf{Figura 6} Visualizaci\'on de deformaciones innecesarias en DTW.} \textbf{Fuente:} \cite{DTWcubicsplineinterpolation}.
+\end{center}
+En la imagen anterior, $W$ corresponde a la cantidad de deformaciones producidas, en donde para DTW y DDTW, se observan valores mayores zero, mientras que en CDTW no produce deformaciones.\par
+Los experimentos sobre conjuntos de datos de series temporales desarrollados en \cite{DTWcubicsplineinterpolation}, reflejan que SIDTW puede reducir significativamente el n\'umero de singularidades y alinear m\'as adecuadamente los puntos entre las dos series de tiempo (facilitando notablemente el c\'omputo de la similitud). En resumen, mientras m\'as precisa sea la pendiente, m\'as efectivo ser\'a tambi\'en el c\'omputo de la deformaci\'on sobre las series de tiempo. Finalmente, cuando existen muchos puntos adyacentes con valores iguales en la serie de tiempo, los autores proponen el uso de \textbf{CDTW}, como una alternativa viable y superior (por ejemplo en comparaci\'on con DTW y DDTW) para evitar la producci\'on de deformaciones innecesarias 	\cite{DTWcubicsplineinterpolation}.
 \subsubsection{El Ruido y La Interpolaci\'on en Series Temporales}
 La recolecci\'on de los datos de una serie de tiempo se encuentra siempre degradada por ruido en cierto grado \cite{noise}. Incluso una estimaci\'on aproximada del nivel de ruido contenido en la serie temporal es crucial, previo al an\'alisis de los datos.\par
 En la pr\'actica, las series de tiempo no estacionarias son muy comunes en campos diversos como la geof\'isica, las finanzas y las ciencias biol\'ogicas \cite{concepts}.\par
@@ -152,9 +183,9 @@ En el siguiente gr\'afico se pueden observar, por ejemplo, segmentos \textit{no 
 \begin{center}
 \includegraphics[scale=0.7]{brainsignal.png}\\
 \vspace*{10pt}
-\footnotesize{\textbf{Figura 6} Medici\'on Cl\'inica Intracraneal. Visualizac\'ion de ruido.}\\ \textbf{Fuente:} \cite{noise}.
+\footnotesize{\textbf{Figura 7} Medici\'on Cl\'inica Intracraneal. Visualizac\'ion de ruido.}\\ \textbf{Fuente:} \cite{noise}.
 \end{center}
-En la figura 6, se puede apreciar la presencia de ruido en la serie temporal \textbf{(a)}. Es posible tambi\'en, observar los segmentos subyacentes \textbf{(b)}, \textbf{(c)} y \textbf{(d)}, superposicionados como parte de \textbf{a} y luego evaluados como segmentos individuales, con a\'un presencia de \enquote{\textit{\textbf{ruido blanco}}}.\par
+En la figura 7, se puede apreciar la presencia de ruido en la serie temporal \textbf{(a)}. Es posible tambi\'en, observar los segmentos subyacentes \textbf{(b)}, \textbf{(c)} y \textbf{(d)}, superposicionados como parte de \textbf{a} y luego evaluados como segmentos individuales, con a\'un presencia de \enquote{\textit{\textbf{ruido blanco}}}.\par
 El ruido blanco es una se\~nal aleatoria (conocida tambi\'en como proceso estoc\'astico) que se caracteriza por el hecho de que sus valores en el eje tiempo, no guardan correlaci\'on estad\'istica. En resumen, el ruido blanco es no correlativo, es decir, en el eje del tiempo la se\~nal toma valores sin ninguna relaci\'on unos con otros \cite{concepts}.\par
 Matem\'aticamente, podr\'ia definirse entonces como una sucesi\'on de variables aleatorias (procesos estoc\'astico) con una esperanza (media) cero y una varianza constante e independientes de cualquier valor de t (covarianza nula) \cite{noise}.\par
 Los valores faltantes, al igual que el ruido, representan igualmente un problema serio que debe abordarse previo al an\'alisis de series temporales.\par
