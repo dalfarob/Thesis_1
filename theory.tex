@@ -53,6 +53,7 @@ La idenficaci\'on de reglas \textit{motif} se logra fundamentalmente apartir del
 \subsection{Medidas de Distancia para el C\'alculo de la Similitud}
 Las medidas de similitud son de vital importancia cuando se ejecutan tareas de an\'alisis y miner\'ia de datos sobre series temporales, tales como: descubrimiento de patrones, agrupamiento, clasificaci\'on, descubrimiento de reglas, anal\'is de valores at\'ipicos, entre otras \cite{concepts}.\par
 Debido a la naturaleza n\'umerica y continua de de los datos caracter\'isticos de las series temporales, las medidas de similitud, t\'ipicamente se llevan a cabo en forma de aproximaciones \cite{distancecomparison}.\par
+Los estudios existentes sobre series de tiempo se basan en cuatro categor\'ias de funciones de distancia \cite{measurements}. La primer categor\'ia consiste en las \textit{Lp-normas} o \enquote{\textit{Lp-norms}}. Son funciones de distancia m\'etricas o lineales, que no soportar cambios en el desplazamiento local del eje tiempo, por ejemplo, la distancia Euclideana o la distancia Manhatthan. La segunda categor\'ia, por otra parte, se conoce como \textit{medidas el\'asticas}, y consisten en funciones de distancia capaces de lidiar con desplazamientos locales en el eje tiempo, pero no son m\'etricas o lineales. La categor\'ia tres, son medidas de distancia basadas en un umbral (por ejemplo TQuEST \cite{distancecomparison}). Por \'ultimo, la categor\'ia cuatro corresponde a todas aquellas medidas de distancia basadas en la \textit{\enquote{forma}} o en un patr\'on de la serie temporal, tal es el caso de SpADe \cite{spade}. \par
 La complejidad inherente al c\'alculo de las medidas de similitud, imponen normalmente las principales limitaciones y restricciones de capacidad y tiempo de c\'omputo, sobre los algoritmos utilizados en el an\'alisis y la miner\'ia de datos de series temporales \cite{algoanalysis}. Es decir, cuanto m\'as r\'apido y preciso sea el c\'alculo de la medida de similitud definida en el algoritmo, menor ser\'a el tiempo de c\'omputo necesario para la ejecuci\'on del procedimiento completo de miner\'ia de datos sobre las series temporales.\par
 Para el desarrollo de este proyecto, se utilizar\'an espec\'ificamente cinco medidas de distancia: 1- Distancia Euclidiana, 2- Swale, 3- Spade, 4- EPR y 5- Cubic Spline Interpolation. Cada una de las medidas de distancia anteriormente mencionadas se detallan a continuaci\'on, incluyendo adem\'as, Dynamic Time Warping (DTW).
 \subsubsection{\textbf{Distancia Euclideana}}
@@ -102,7 +103,8 @@ acerca del comportamiento\\ de insectos se alinean con invarianza a la deformaci
 \subsubsection{\textbf{Distancia \enquote{Swale}}}
 En \cite{swale}, los autores proponen un modelo de similitud llamado \textbf{\textit{\enquote{Swale}}} (\enquote{\textit{Sequence Weighted ALignmEnt}}, por sus siglas en Ingl\'es); este modelo utiliza un sistema de puntuaci\'on para recompensar las similitudes y penalizar las disimilitudes durante la comparaci\'on de series temporales. El uso del marco de trabajo \textit{Swale}, requiere necesariamente del ajuste de tres par\'ametros: 1- un umbral de similitud \textbf{$\epsilon$}, 2- un valor o peso $r$ utilizado para recompensar las similitudes y 3- un valor o peso $p$ para penalizar los vacios o disimilitudes \cite{swale}.\par
 M\'as formalmente, la funci\'on de similitud de \textit{Swale} puede definirse como:\\
-Sean R y S dos series de tiempo de longitud m y n, respectivamente. Sea el costo de la diferencia o disimilitud $gap_c$ y el costo de la similitud $reward_m$. Entonces,	$Swale(R, S) =$
+Sean R y S dos series de tiempo de longitud m y n, respectivamente. Sea el costo de la diferencia o disimilitud $gap_c$ y el costo de la similitud $reward_m$. Entonces dadas dos series temporales $R$ y $S$,\\
+$Swale(R, S) =$
 \[
 \begin{dcases}
     {n * gap_c},&   \text{if m = 0}\\
@@ -130,7 +132,19 @@ SDl(Dt, Q) = mini<te SD(D[t : i], Q)
 \end{equation}
 Donde $SDl(Dt, Q)$ mide la distancia de la mejor similitud de la subsecuencia para $(Q)$ iniciando en un punto $t$ con respecto a $D$.\par
 En resumen, SpaADe es una medida de distancia robusta basada en \enquote{la forma} de la subsecuencia de la serie temporal. En \cite{spade} se argumentan adem\'as, que no es sensible al desplazamiento o a la amplitud de las dimensiones durante el an\'alisis del flujo de datos de la serie temporal y que por ende, alcanza mejores resultados con respecto a medidas de distancia m\'as comunes tales como distancia Euclidiana o DTW.
-\subsubsection{\textbf{Medida de distancia EPR}}
+\subsubsection{\textbf{Medida de distancia ERP}}
+En \cite{erp}, los autores proponen la distancia ERP (\enquote{\textbf{E}dit distance with \textbf{R}eal \textbf{P}enalty} por sus siglas en Ingl\'es). ERP podr\'ia representarse de la siguiente manera, dadas dos series temporales $R$ y $S$,\\
+$Swale(R, S) =$
+\[
+\begin{dcases}
+    \sum\limits_{1}^{n}|s_i - g|,&   \text{if m = 0}\\
+    \sum\limits_{1}^{m}|r_i - g|,&   \text{if n = 0}\\       
+    {min\{ERP(Rest(R), Rest(S)) + dist_{erp}(r_1,s_1)}, & \text{otherwise}\\
+    {ERP(Rest(R),S) + dist_{erp}(r_1,gap), RRP(R,Rest(S) + dist_{erp}(S_1,gap)}\} 
+\end{dcases}
+\]
+Donde $g$ es un valor constante, normalmente igual a 0 seg\'un la recomendaci\'on de los autores en \cite{erp}. Los autores, definen ERP como una variante de \textit{L1-norm}, con la excepci\'on de que esta medida de distancia si es capaz de soportar el desplazamiento local en el eje tiempo, en otras palabras, lo autores lo consideran \enquote{el matrimonio perfecto} entre una medidas de distancia \enquote{L1-norm} y una medida de distancia de categor\'ia el\'astica, ya que se asemeja a \enquote{L1-norm} en ser una funci\'on de distancia m\'etrica, pero tambi\'en, se asemeja a distancias el\'asticas como DTW, en su capacidad misma de poder soportar los desplazamientos o transiciones en el eje tiempo \cite{erp}.
+\subsubsection{\textbf{Cubic Spline Interpolation}}
 \subsubsection{El Ruido y La Interpolaci\'on en Series Temporales}
 La recolecci\'on de los datos de una serie de tiempo se encuentra siempre degradada por ruido en cierto grado \cite{noise}. Incluso una estimaci\'on aproximada del nivel de ruido contenido en la serie temporal es crucial, previo al an\'alisis de los datos.\par
 En la pr\'actica, las series de tiempo no estacionarias son muy comunes en campos diversos como la geof\'isica, las finanzas y las ciencias biol\'ogicas \cite{concepts}.\par

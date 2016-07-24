@@ -11,26 +11,27 @@
 \contentsline {subsubsection}{\numberline {4.4.2}DTW (Dynamic Time Warping)}{19}
 \contentsline {subsubsection}{\numberline {4.4.3}\textbf {Distancia \enquote {Swale}}}{21}
 \contentsline {subsubsection}{\numberline {4.4.4}\textbf {Medida de distancia SpADe}}{22}
-\contentsline {subsubsection}{\numberline {4.4.5}\textbf {Medida de distancia EPR}}{23}
-\contentsline {subsubsection}{\numberline {4.4.6}El Ruido y La Interpolaci\'on en Series Temporales}{23}
-\contentsline {section}{\numberline {5}\textbf {Propuesta de Proyecto}}{26}
-\contentsline {subsection}{\numberline {5.1}Planteamiento del Problema}{26}
-\contentsline {subsection}{\numberline {5.2}Propuesta del Proyecto}{27}
-\contentsline {subsection}{\numberline {5.3}Trabajos Relacionados}{27}
-\contentsline {subsection}{\numberline {5.4}Hip\'otesis}{27}
-\contentsline {subsection}{\numberline {5.5}M\'etricas}{27}
-\contentsline {subsection}{\numberline {5.6}Justificaci\'on del Proyecto}{28}
-\contentsline {section}{\numberline {6}\textbf {Objetivo General}}{30}
-\contentsline {section}{\numberline {7}\textbf {Objetivos Espec\'ificos}}{30}
-\contentsline {section}{\numberline {8}\textbf {Alcance de la Investigaci\'on}}{31}
-\contentsline {section}{\numberline {9}\textbf {Entregables}}{33}
-\contentsline {section}{\numberline {10}\textbf {Metodolog\'ia}}{34}
-\contentsline {subsection}{\numberline {10.1}Dise\~no de Experimentos}{34}
-\contentsline {subsubsection}{\numberline {10.1.1}Declaraci\'on del Problema}{35}
-\contentsline {subsubsection}{\numberline {10.1.2}Factores}{35}
-\contentsline {subsubsection}{\numberline {10.1.3}Variables de Respuesta}{37}
-\contentsline {subsubsection}{\numberline {10.1.4}Recolecci\'on de Datos}{37}
-\contentsline {subsubsection}{\numberline {10.1.5}An\'alisis Estad\'istico}{38}
-\contentsline {subsection}{\numberline {10.2}Ambiente de Desarrollo}{38}
-\contentsline {section}{\numberline {11}\textbf {Plan de Trabajo}}{40}
-\contentsline {chapter}{Referencias}{41}
+\contentsline {subsubsection}{\numberline {4.4.5}\textbf {Medida de distancia ERP}}{23}
+\contentsline {subsubsection}{\numberline {4.4.6}\textbf {Cubic Spline Interpolation}}{24}
+\contentsline {subsubsection}{\numberline {4.4.7}El Ruido y La Interpolaci\'on en Series Temporales}{24}
+\contentsline {section}{\numberline {5}\textbf {Propuesta de Proyecto}}{27}
+\contentsline {subsection}{\numberline {5.1}Planteamiento del Problema}{27}
+\contentsline {subsection}{\numberline {5.2}Propuesta del Proyecto}{28}
+\contentsline {subsection}{\numberline {5.3}Trabajos Relacionados}{28}
+\contentsline {subsection}{\numberline {5.4}Hip\'otesis}{28}
+\contentsline {subsection}{\numberline {5.5}M\'etricas}{28}
+\contentsline {subsection}{\numberline {5.6}Justificaci\'on del Proyecto}{29}
+\contentsline {section}{\numberline {6}\textbf {Objetivo General}}{31}
+\contentsline {section}{\numberline {7}\textbf {Objetivos Espec\'ificos}}{31}
+\contentsline {section}{\numberline {8}\textbf {Alcance de la Investigaci\'on}}{32}
+\contentsline {section}{\numberline {9}\textbf {Entregables}}{34}
+\contentsline {section}{\numberline {10}\textbf {Metodolog\'ia}}{35}
+\contentsline {subsection}{\numberline {10.1}Dise\~no de Experimentos}{35}
+\contentsline {subsubsection}{\numberline {10.1.1}Declaraci\'on del Problema}{36}
+\contentsline {subsubsection}{\numberline {10.1.2}Factores}{36}
+\contentsline {subsubsection}{\numberline {10.1.3}Variables de Respuesta}{38}
+\contentsline {subsubsection}{\numberline {10.1.4}Recolecci\'on de Datos}{38}
+\contentsline {subsubsection}{\numberline {10.1.5}An\'alisis Estad\'istico}{39}
+\contentsline {subsection}{\numberline {10.2}Ambiente de Desarrollo}{39}
+\contentsline {section}{\numberline {11}\textbf {Plan de Trabajo}}{41}
+\contentsline {chapter}{Referencias}{43}
