@@ -114,6 +114,23 @@ Sean R y S dos series de tiempo de longitud m y n, respectivamente. Sea el costo
 \end{dcases}
 \]
 El modelo Swale, posee una carater\'istica muy particular, ya que permite ajustar los pesos o los valores utilizados para castigar la disimilitud o bien, en sentido contrario, recompensar la similitud, con base en el criterio de un experto con conocimientos muy espec\'ificos de cierto dominio. Esto permite afinar la funci\'on de distancia explicada en la f\'ormula anterior, de manera tal, que pueda establecerse un rendimiento \'optimo con base en la naturaleza de los datos, en lugar de tener una \'unica t\'ecnica para cada dominio de datos \cite{swale}.
+\subsubsection{\textbf{Medida de distancia SpADe}}
+En \cite{spade}, se define Spatial Assembling Distance
+(SpADe por sus siglas en Ingl\'es), como una medida de distancia cap\'az de manejar el desplazamiento y la amplitud en dimensiones de amplitud y tiempo. Adicionalmente, proponen una propuesta eficiente para la detecci\'on continua de patrones, utilizando SpADe, para evaluar la similitud de subsecuencias de series temporales sobre el flujo de datos.\par
+Esta medida de distancia basa en la detecci\'on de la mejor combinaci\'on de un patr\'on de similitud local (Local Pattern Match LPM), mediante el c\'alculo de la ruta m\'as corta en la matriz de similitud.\par 
+En la siguiente figura, se muestra un ejemplo del c\'omputo de LPM para dos segmentos de series de tiempo Q y D, en condiciones de desplazamiento y amplitud.
+\begin{center}
+\includegraphics[scale=0.9]{spade.png}\\
+\vspace*{10pt}
+\footnotesize{\textbf{Figura 5} Ejemplo del c\'alculo de LPM.}\\ \textbf{Fuente:} \cite{swale}.
+\end{center}
+SpADe puede definirse matem\'aticamente como:
+\begin{equation}
+SDl(Dt, Q) = mini<te SD(D[t : i], Q)
+\end{equation}
+Donde $SDl(Dt, Q)$ mide la distancia de la mejor similitud de la subsecuencia para $(Q)$ iniciando en un punto $t$ con respecto a $D$.\par
+En resumen, SpaADe es una medida de distancia robusta basada en \enquote{la forma} de la subsecuencia de la serie temporal. En \cite{spade} se argumentan adem\'as, que no es sensible al desplazamiento o a la amplitud de las dimensiones durante el an\'alisis del flujo de datos de la serie temporal y que por ende, alcanza mejores resultados con respecto a medidas de distancia m\'as comunes tales como distancia Euclidiana o DTW.
+\subsubsection{\textbf{Medida de distancia EPR}}
 \subsubsection{El Ruido y La Interpolaci\'on en Series Temporales}
 La recolecci\'on de los datos de una serie de tiempo se encuentra siempre degradada por ruido en cierto grado \cite{noise}. Incluso una estimaci\'on aproximada del nivel de ruido contenido en la serie temporal es crucial, previo al an\'alisis de los datos.\par
 En la pr\'actica, las series de tiempo no estacionarias son muy comunes en campos diversos como la geof\'isica, las finanzas y las ciencias biol\'ogicas \cite{concepts}.\par
@@ -121,9 +138,9 @@ En el siguiente gr\'afico se pueden observar, por ejemplo, segmentos \textit{no 
 \begin{center}
 \includegraphics[scale=0.7]{brainsignal.png}\\
 \vspace*{10pt}
-\footnotesize{\textbf{Figura 5.} Medici\'on Cl\'inica Intracraneal. Visualizac\'ion de ruido.}\\ \textbf{Fuente:} \cite{noise}.
+\footnotesize{\textbf{Figura 6} Medici\'on Cl\'inica Intracraneal. Visualizac\'ion de ruido.}\\ \textbf{Fuente:} \cite{noise}.
 \end{center}
-En la figura 5, se puede apreciar la presencia de ruido en la serie temporal \textbf{(a)}. Es posible tambi\'en, observar los segmentos subyacentes \textbf{(b)}, \textbf{(c)} y \textbf{(d)}, superposicionados como parte de \textbf{a} y luego evaluados como segmentos individuales, con a\'un presencia de \enquote{\textit{\textbf{ruido blanco}}}.\par
+En la figura 6, se puede apreciar la presencia de ruido en la serie temporal \textbf{(a)}. Es posible tambi\'en, observar los segmentos subyacentes \textbf{(b)}, \textbf{(c)} y \textbf{(d)}, superposicionados como parte de \textbf{a} y luego evaluados como segmentos individuales, con a\'un presencia de \enquote{\textit{\textbf{ruido blanco}}}.\par
 El ruido blanco es una se\~nal aleatoria (conocida tambi\'en como proceso estoc\'astico) que se caracteriza por el hecho de que sus valores en el eje tiempo, no guardan correlaci\'on estad\'istica. En resumen, el ruido blanco es no correlativo, es decir, en el eje del tiempo la se\~nal toma valores sin ninguna relaci\'on unos con otros \cite{concepts}.\par
 Matem\'aticamente, podr\'ia definirse entonces como una sucesi\'on de variables aleatorias (procesos estoc\'astico) con una esperanza (media) cero y una varianza constante e independientes de cualquier valor de t (covarianza nula) \cite{noise}.\par
 Los valores faltantes, al igual que el ruido, representan igualmente un problema serio que debe abordarse previo al an\'alisis de series temporales.\par

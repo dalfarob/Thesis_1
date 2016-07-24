@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  24 JUL 2016 03:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.21)  24 JUL 2016 03:55
 entering extended mode
 **main.tex
 
@@ -347,20 +347,7 @@ LaTeX Warning: Label `arm:tabla' multiply defined.
 
 )
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\appb.aux"
-
-LaTeX Warning: Label `arm:fig1' multiply defined.
-
-
-LaTeX Warning: Label `arm:fig1' multiply defined.
-
-
-LaTeX Warning: Label `arm:fig1' multiply defined.
-
-
-LaTeX Warning: Label `arm:fig1' multiply defined.
-
-)
+osal\appb.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\intro.aux")
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
@@ -515,10 +502,19 @@ Package pdftex.def Info: dtw2.png used on input line 29.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<brainsignal.png, id=38, 554.07pt x 630.10406pt>
+<spade.png, id=38, 309.5565pt x 134.904pt>
+File: spade.png Graphic file (type png)
+ <use spade.png>
+Package pdftex.def Info: spade.png used on input line 37.
+(pdftex.def)             Requested size: 185.73532pt x 80.94302pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<brainsignal.png, id=39, 554.07pt x 630.10406pt>
 File: brainsignal.png Graphic file (type png)
  <use brainsignal.png>
-Package pdftex.def Info: brainsignal.png used on input line 37.
+Package pdftex.def Info: brainsignal.png used on input line 45.
 (pdftex.def)             Requested size: 332.44456pt x 378.06535pt.
 
 
@@ -532,9 +528,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 osal/timeSeries.png> <C:/Users/dalfarob/Documents/My Carrier Development/Master
  Degree/Tesis I/Proposal/euclidean.png>] [9 <C:/Users/dalfarob/Documents/My Car
 rier Development/Master Degree/Tesis I/Proposal/dtw.png> <C:/Users/dalfarob/Doc
-uments/My Carrier Development/Master Degree/Tesis I/Proposal/dtw2.png>]
-[10 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/P
-roposal/brainsignal.png>]
+uments/My Carrier Development/Master Degree/Tesis I/Proposal/dtw2.png> <C:/User
+s/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/Proposal/spad
+e.png>] [10 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/T
+esis I/Proposal/brainsignal.png>]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\intro.tex"
 Underfull \vbox (badness 1546) has occurred while \output is active []
@@ -603,27 +600,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-File: brainsignal.png Graphic file (type png)
+File: spade.png Graphic file (type png)
 
-<use brainsignal.png>
-Package pdftex.def Info: brainsignal.png used on input line 122.
-(pdftex.def)             Requested size: 387.84636pt x 441.06984pt.
+<use spade.png>
+Package pdftex.def Info: spade.png used on input line 123.
+(pdftex.def)             Requested size: 278.59827pt x 121.41248pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
 [23]
-Overfull \hbox (1.05605pt too wide) in paragraph at lines 128--128
+File: brainsignal.png Graphic file (type png)
+ <use brainsignal.png>
+Package pdftex.def Info: brainsignal.png used on input line 139.
+(pdftex.def)             Requested size: 387.84636pt x 441.06984pt.
+ [24]
+Overfull \hbox (1.05605pt too wide) in paragraph at lines 145--145
 []\OT1/cmr/m/n/12 Matematicamente, podra definirse en-tonces como una sucesi
 on de vari-ables aleato-
  []
 
-) [24]
+) [25]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\proposal.tex" [25
+osal\proposal.tex" [26
 
 
-] [26] [27]) [28]
+] [27] [28]) [29]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\objectives.tex"
 Overfull \hbox (9.11986pt too wide) in paragraph at lines 9--10
@@ -631,7 +633,7 @@ Overfull \hbox (9.11986pt too wide) in paragraph at lines 9--10
 fico an-te-rior, con el proposito
  []
 
-) [29
+) [30
 
 
 ]
@@ -642,12 +644,12 @@ Overfull \hbox (4.64629pt too wide) in paragraph at lines 16--17
 n de seg-men-tos an-tecedentes
  []
 
-) [30
+) [31
 
 
-] [31]
+] [32]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\deliverables.tex") [32
+osal\deliverables.tex") [33
 
 
 ]
@@ -658,17 +660,17 @@ Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 rension del fenomeno
  []
 
-[33
+[34
 
 
-] [34] [35] <factors.png, id=142, 545.78906pt x 187.45032pt>
+] [35] [36] <factors.png, id=147, 545.78906pt x 187.45032pt>
 File: factors.png Graphic file (type png)
 
 <use factors.png>
 Package pdftex.def Info: factors.png used on input line 44.
 (pdftex.def)             Requested size: 382.04973pt x 131.21431pt.
- [36 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/
-Proposal/factors.png>] [37]) [38]
+ [37 <C:/Users/dalfarob/Documents/My Carrier Development/Master Degree/Tesis I/
+Proposal/factors.png>] [38]) [39]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
 osal\projectPlan.tex"
 File: deliverables.png Graphic file (type png)
@@ -684,35 +686,35 @@ Overfull \hbox (56.2826pt too wide) in paragraph at lines 11--14
  [] 
  []
 
-) [39
+) [40
 
 
 ]
 ("C:\Users\dalfarob\Documents\My Carrier Development\Master Degree\Tesis I\Prop
-osal\biblio.tex" [40
+osal\biblio.tex"
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [41
 
 
 
 ]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
- [41]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -781,10 +783,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5927 strings out of 493921
- 92889 string characters out of 3147273
- 164405 words of memory out of 3000000
- 9037 multiletter control sequences out of 15000+200000
+ 5937 strings out of 493921
+ 93003 string characters out of 3147273
+ 164461 words of memory out of 3000000
+ 9046 multiletter control sequences out of 15000+200000
  13769 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,10n,39p,1421b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -803,9 +805,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (44 pages, 754032 bytes).
+Output written on main.pdf (44 pages, 777259 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
+ 227 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
