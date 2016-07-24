@@ -1,5 +1,6 @@
 \select@language {english}
 \contentsline {figure}{\numberline {1}{\ignorespaces Ejemplos de Series Temporales\relax }}{8}
-\contentsline {figure}{\numberline {2}{\ignorespaces Visualizacion de la distancia Euclideana de dos series temporales.\relax }}{8}
-\contentsline {figure}{\numberline {3}{\ignorespaces Visualizacion de la minimizaci\'on de una ruta en DTW.\relax }}{9}
+\contentsline {figure}{\numberline {2}{\ignorespaces Visualizaci\'on de la distancia Euclidiana de dos series temporales.\relax }}{8}
+\contentsline {figure}{\numberline {3}{\ignorespaces Visualizaci\'on de la minimizaci\'on de una ruta en DTW.\relax }}{9}
 \contentsline {figure}{\numberline {4}{\ignorespaces Visualizaci\'on del calculo de DTW.\relax }}{9}
+\contentsline {figure}{\numberline {5}{\ignorespaces Ejemplo de ruido en las se\~nales de un electoencefalograma.\relax }}{10}
