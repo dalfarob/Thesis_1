@@ -18,20 +18,20 @@
 \contentsline {subsection}{\numberline {5.1}Planteamiento del Problema}{30}
 \contentsline {subsection}{\numberline {5.2}Propuesta del Proyecto}{31}
 \contentsline {subsection}{\numberline {5.3}Trabajos Relacionados}{31}
-\contentsline {subsection}{\numberline {5.4}Hip\'otesis}{31}
-\contentsline {subsection}{\numberline {5.5}M\'etricas}{31}
-\contentsline {subsection}{\numberline {5.6}Justificaci\'on del Proyecto}{32}
-\contentsline {section}{\numberline {6}\textbf {Objetivo General}}{34}
-\contentsline {section}{\numberline {7}\textbf {Objetivos Espec\'ificos}}{34}
-\contentsline {section}{\numberline {8}\textbf {Alcance de la Investigaci\'on}}{35}
-\contentsline {section}{\numberline {9}\textbf {Entregables}}{37}
-\contentsline {section}{\numberline {10}\textbf {Metodolog\'ia}}{38}
-\contentsline {subsection}{\numberline {10.1}Dise\~no de Experimentos}{38}
-\contentsline {subsubsection}{\numberline {10.1.1}Declaraci\'on del Problema}{39}
-\contentsline {subsubsection}{\numberline {10.1.2}Factores}{39}
-\contentsline {subsubsection}{\numberline {10.1.3}Variables de Respuesta}{41}
-\contentsline {subsubsection}{\numberline {10.1.4}Recolecci\'on de Datos}{41}
-\contentsline {subsubsection}{\numberline {10.1.5}An\'alisis Estad\'istico}{42}
-\contentsline {subsection}{\numberline {10.2}Ambiente de Desarrollo}{42}
-\contentsline {section}{\numberline {11}\textbf {Plan de Trabajo}}{44}
-\contentsline {chapter}{Referencias}{45}
+\contentsline {subsection}{\numberline {5.4}Hip\'otesis}{32}
+\contentsline {subsection}{\numberline {5.5}M\'etricas}{32}
+\contentsline {subsection}{\numberline {5.6}Justificaci\'on del Proyecto}{33}
+\contentsline {section}{\numberline {6}\textbf {Objetivo General}}{35}
+\contentsline {section}{\numberline {7}\textbf {Objetivos Espec\'ificos}}{35}
+\contentsline {section}{\numberline {8}\textbf {Alcance de la Investigaci\'on}}{36}
+\contentsline {section}{\numberline {9}\textbf {Entregables}}{38}
+\contentsline {section}{\numberline {10}\textbf {Metodolog\'ia}}{39}
+\contentsline {subsection}{\numberline {10.1}Dise\~no de Experimentos}{39}
+\contentsline {subsubsection}{\numberline {10.1.1}Declaraci\'on del Problema}{40}
+\contentsline {subsubsection}{\numberline {10.1.2}Factores}{40}
+\contentsline {subsubsection}{\numberline {10.1.3}Variables de Respuesta}{42}
+\contentsline {subsubsection}{\numberline {10.1.4}Recolecci\'on de Datos}{42}
+\contentsline {subsubsection}{\numberline {10.1.5}An\'alisis Estad\'istico}{43}
+\contentsline {subsection}{\numberline {10.2}Ambiente de Desarrollo}{43}
+\contentsline {section}{\numberline {11}\textbf {Plan de Trabajo}}{45}
+\contentsline {chapter}{Referencias}{47}
