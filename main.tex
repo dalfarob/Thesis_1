@@ -3,16 +3,20 @@
 %------------------------------------------------------------------------
 \usepackage{ragged2e}
 \usepackage{tocloft}
-\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[nottoc]{tocbibind}
 \usepackage{amssymb}
 \usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{kbordermatrix}
+\usepackage{float}
+\usepackage[nomarkers]{endfloat}
 \usepackage[sort, numbers]{natbib}
 \usepackage [english]{babel}
 \usepackage [autostyle, english = american]{csquotes}
 \usepackage{mathtools}
+%\addcontentsline{toc}{chapter}{\listfigurename}
+%\addcontentsline{toc}{chapter}{\listtablename}
 %------------------------------------------------------------------------
 \begin{document}
 %------------------------------------------------------------------------
@@ -39,9 +43,7 @@
 \include{cover}
 \include{contents}
 \listoftables
-\clearpage
 \listoffigures
-\clearpage
 \include{appa}
 \include{appb}
 \include{intro}

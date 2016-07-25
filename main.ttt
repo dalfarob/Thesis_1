@@ -1,0 +1,36 @@
+\begin{table}[h]
+\caption{Seudoc\'odigo del algoritmo \enquote{Find Antecedent Candidates}.}
+\begin{center}
+\includegraphics[scale=0.7]{antecedent.png}\\
+\end{center}
+\label{arm:table 1}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[h]
+\caption{Seudoc\'odigo del algoritmo \enquote{Rule Bit Save}.}
+\begin{center}
+\includegraphics[scale=0.7]{rulebitsaves.png}\\
+\end{center}
+\label{arm:table 2}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[h]
+\caption{Listado de entregables, objetivos relacionados y duraci\'on}
+\label{arm:tabla 3}
+\begin{center}
+\includegraphics[scale=0.7]{deliverables.png}\\
+\end{center}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[h]
+\caption{Cronograma}
+\label{arm:tabla 4}
+\begin{center}
+\includegraphics[scale=0.62]{projectPlan.png}\\
+\end{center}
+\end{table}
+\efloatseparator
+ 
