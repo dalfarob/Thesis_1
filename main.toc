@@ -1,39 +1,39 @@
-\select@language {english}
+\select@language {spanish}
 \contentsline {chapter}{Lista de Tablas}{5}
-\contentsline {chapter}{Lista de Figuras}{5}
-\contentsline {section}{\numberline {1}\textbf {Introducci\'on}}{6}
-\contentsline {section}{\numberline {2}\textbf {Marco Te\'orico}}{8}
-\contentsline {subsection}{\numberline {2.1}Series Temporales}{8}
-\contentsline {subsection}{\numberline {2.2}An\'alisis y Aplicaciones de Series Temporales}{10}
-\contentsline {subsection}{\numberline {2.3}Grandes Retos Sobre la Miner\'ia de Series Temporales}{11}
-\contentsline {subsection}{\numberline {2.4}Medidas de Distancia para el C\'alculo de la Similitud}{12}
-\contentsline {subsubsection}{\numberline {2.4.1}\textbf {Distancia Euclideana}}{13}
-\contentsline {subsubsection}{\numberline {2.4.2}\textbf {Distancia \enquote {Swale}}}{14}
-\contentsline {subsubsection}{\numberline {2.4.3}\textbf {Medida de distancia SpADe}}{15}
-\contentsline {subsubsection}{\numberline {2.4.4}\textbf {Medida de distancia ERP}}{16}
-\contentsline {subsubsection}{\numberline {2.4.5}\textbf {DTW (Dynamic Time Warping})}{17}
-\contentsline {subsubsection}{\numberline {2.4.6}\textbf {DTW basado en Cubic Spline Interpolation}}{19}
-\contentsline {subsection}{\numberline {2.5}El Ruido y la Interpolaci\'on en Series Temporales}{21}
-\contentsline {section}{\numberline {3}\textbf {Propuesta de Proyecto}}{24}
-\contentsline {subsection}{\numberline {3.1}Planteamiento del Problema}{24}
-\contentsline {subsection}{\numberline {3.2}Propuesta del Proyecto}{25}
-\contentsline {subsection}{\numberline {3.3}Trabajos Relacionados}{25}
-\contentsline {subsection}{\numberline {3.4}Hip\'otesis}{28}
-\contentsline {subsection}{\numberline {3.5}M\'etricas}{29}
-\contentsline {subsection}{\numberline {3.6}Justificaci\'on del Proyecto}{30}
-\contentsline {section}{\numberline {4}\textbf {Objetivo General}}{32}
-\contentsline {section}{\numberline {5}\textbf {Objetivos Espec\'ificos}}{32}
-\contentsline {section}{\numberline {6}\textbf {Alcance de la Investigaci\'on}}{33}
-\contentsline {section}{\numberline {7}\textbf {Entregables}}{35}
-\contentsline {section}{\numberline {8}\textbf {Metodolog\'ia}}{36}
-\contentsline {subsection}{\numberline {8.1}Dise\~no de Experimentos}{36}
-\contentsline {subsubsection}{\numberline {8.1.1}Declaraci\'on del Problema}{37}
-\contentsline {subsubsection}{\numberline {8.1.2}Factores}{37}
-\contentsline {subsubsection}{\numberline {8.1.3}Variables de Respuesta}{39}
-\contentsline {subsubsection}{\numberline {8.1.4}Recolecci\'on de Datos}{39}
-\contentsline {subsubsection}{\numberline {8.1.5}An\'alisis Estad\'istico}{40}
-\contentsline {subsection}{\numberline {8.2}Ambiente de Desarrollo}{40}
-\contentsline {section}{\numberline {9}\textbf {Plan de Trabajo}}{42}
-\contentsline {chapter}{Referencias}{43}
-\contentsline {chapter}{Lista de Figuras}{47}
-\contentsline {chapter}{Lista de Tablas}{55}
+\contentsline {chapter}{Lista de Figuras}{6}
+\contentsline {section}{\numberline {1}\textbf {Introducci\'on}}{7}
+\contentsline {section}{\numberline {2}\textbf {Marco Te\'orico}}{9}
+\contentsline {subsection}{\numberline {2.1}Series Temporales}{9}
+\contentsline {subsection}{\numberline {2.2}An\'alisis y Aplicaciones de Series Temporales}{11}
+\contentsline {subsection}{\numberline {2.3}Grandes Retos Sobre la Miner\'ia de Series Temporales}{12}
+\contentsline {subsection}{\numberline {2.4}Medidas de Distancia para el C\'alculo de la Similitud}{13}
+\contentsline {subsubsection}{\numberline {2.4.1}\textbf {Distancia Euclideana}}{14}
+\contentsline {subsubsection}{\numberline {2.4.2}\textbf {Distancia \enquote {Swale}}}{15}
+\contentsline {subsubsection}{\numberline {2.4.3}\textbf {Medida de distancia SpADe}}{16}
+\contentsline {subsubsection}{\numberline {2.4.4}\textbf {Medida de distancia ERP}}{17}
+\contentsline {subsubsection}{\numberline {2.4.5}\textbf {DTW (Dynamic Time Warping})}{18}
+\contentsline {subsubsection}{\numberline {2.4.6}\textbf {DTW basado en Cubic Spline Interpolation}}{20}
+\contentsline {subsection}{\numberline {2.5}El Ruido y la Interpolaci\'on en Series Temporales}{22}
+\contentsline {section}{\numberline {3}\textbf {Propuesta de Proyecto}}{25}
+\contentsline {subsection}{\numberline {3.1}Planteamiento del Problema}{25}
+\contentsline {subsection}{\numberline {3.2}Propuesta del Proyecto}{26}
+\contentsline {subsection}{\numberline {3.3}Trabajos Relacionados}{26}
+\contentsline {subsection}{\numberline {3.4}Hip\'otesis}{29}
+\contentsline {subsection}{\numberline {3.5}M\'etricas}{30}
+\contentsline {subsection}{\numberline {3.6}Justificaci\'on del Proyecto}{31}
+\contentsline {section}{\numberline {4}\textbf {Objetivo General}}{33}
+\contentsline {section}{\numberline {5}\textbf {Objetivos Espec\'ificos}}{33}
+\contentsline {section}{\numberline {6}\textbf {Alcance de la Investigaci\'on}}{34}
+\contentsline {section}{\numberline {7}\textbf {Entregables}}{36}
+\contentsline {section}{\numberline {8}\textbf {Metodolog\'ia}}{37}
+\contentsline {subsection}{\numberline {8.1}Dise\~no de Experimentos}{37}
+\contentsline {subsubsection}{\numberline {8.1.1}Declaraci\'on del Problema}{38}
+\contentsline {subsubsection}{\numberline {8.1.2}Factores}{38}
+\contentsline {subsubsection}{\numberline {8.1.3}Variables de Respuesta}{40}
+\contentsline {subsubsection}{\numberline {8.1.4}Recolecci\'on de Datos}{40}
+\contentsline {subsubsection}{\numberline {8.1.5}An\'alisis Estad\'istico}{41}
+\contentsline {subsection}{\numberline {8.2}Ambiente de Desarrollo}{41}
+\contentsline {section}{\numberline {9}\textbf {Plan de Trabajo}}{43}
+\contentsline {chapter}{Referencias}{45}
+\contentsline {chapter}{Lista de Figuras}{49}
+\contentsline {chapter}{Lista de Tablas}{57}

@@ -60,6 +60,7 @@ La automatizaci\'on de la recolecci\'on de las variables de respuesta ser\'a pos
 Una vez conclu\'ida la ejecuci\'on del experimento, se deben analizar los resultados para comparar ambos algoritmos en sus diferentes versiones. Para esta comparaci\'on, se debe analizar si existe una diferencia significativa en los promedios obtenidos de la variable de respuesta para cada uno de los distintos grupos.
 Un an\'alisis de varianza permite saber si la diferencia en la media de varias poblaciones es significativa debido a la influencia de alguno de los factores \cite{designexp}.\par 
 En primera instancia, se har\'an las pruebas de normalidad utilizando el valor \textit{p} para mostrar si los resultados cumplen o no los requisitos para una prueba param\'etrica. Posteriormente, una vez realizada la prueba de normalidad, se utilizar\'a el m\'etodo estad\'istico, no param\'etrico llamado \textit{\textbf{\enquote{Kruskal-Wallis-Test}}}. Mediante el uso de este m\'etodo, no se tiene que asumir que las poblaciones siguen una distribuci\'on normal, \'unicamente se utilizar\'an muestras independientes provenientes de distintas fuentes de datos; poblaciones no relacionadas cuyas muestras no se afectan unas con otras \cite{kruskwal}.
+En caso de que la prueba de normalidad resulte positiva se utilizar\'a ANOVA, de lo contrario, se har\'a uso del m\'etodo estad\'istico Kruskal.
 \subsection{Ambiente de Desarrollo}
 Para el desarrollo de la propuesta de investigaci\'on actual, se implementar\'a una plataforma que cumpla con dos caracter\'isticas principales:
 \begin{itemize}

@@ -216,7 +216,7 @@
 {\large\choosecase{\@degree}}
 \par
 \begin{centering}
-{\large\bf{Cubic Spline Interpolation as a distance measure used in the discovery of meaningful rules from complex time series in presence of noise.}}
+{\large\bf{Cubic Spline Interpolation as a distance measure used in the discovery of meaningful rules from complex time series in presence of noise}}
 \end{centering}
 \par
 \begin{centering}
