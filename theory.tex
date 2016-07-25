@@ -95,7 +95,7 @@ En la siguiente figura, se muestra un ejemplo del c\'omputo de LPM para dos segm
 \begin{center}
 \includegraphics[scale=0.9]{spade.png}\\
 \vspace*{10pt}
-\footnotesize{\textbf{Figura 5} Ejemplo del c\'alculo de LPM.}\\ \textbf{Fuente:} \cite{swale}.
+\footnotesize{\textbf{Figura 3.} Ejemplo del c\'alculo de LPM.}\\ \textbf{Fuente:} \cite{swale}.
 \end{center}
 SpADe puede definirse matem\'aticamente como:
 \begin{equation}
@@ -126,7 +126,7 @@ Es decir, $W$ es una secuencia o un camino espec\'ifico de puntos en el cuadrant
 \begin{center}
 \includegraphics[scale=0.7]{dtw.png}\\
 \vspace*{10pt}
-\footnotesize{\textbf{Figura 3.} Visualizaci\'on de un camino w en un cuandrante de $m$ por $n$.}\\ \textbf{Fuente:} \cite{dtw}.
+\footnotesize{\textbf{Figura 4.} Visualizaci\'on de un camino w en un cuandrante de $m$ por $n$.}\\ \textbf{Fuente:} \cite{dtw}.
 \end{center}
 Posteriormente, por definici\'on, se debe definir una medida de distancia. En \cite{dtw}, los autores proponen $\delta(i,j) = (s_i - t_j)^2$. Una vez definida la medida de distancia, se puede definir formalmente DTW como la minimizaci\'on sobre los caminos o rutas potenciales \textbf{\textit{no lineales}}, basados en la distancia acumulada para cada ruta, en donde $\delta$ es una medida de distancia entre dos puntos de datos o elementos de las series temporales.
 \begin{equation}
@@ -138,13 +138,13 @@ En la Figura 4, se muestra observa un ejemplo claro de la forma que adoptan las 
 \vspace*{10pt}
 \footnotesize{
 \begin{tabular}{l}
-\textbf{Figura 4.} Visualizaci\'on de dos segmentos de series temporales
+\textbf{Figura 5.} Visualizaci\'on de dos segmentos de series temporales
 acerca del comportamiento\\ de insectos se alinean con invarianza a la deformaci\'on computada mediante el uso de DTW.
 \end{tabular}{}
 }
 \textbf{Fuente:} \cite{dtw}.
 \end{center}
-\subsubsection{\textbf{DTW basado en Cubic Spline Interpolation (SIDTW)}}
+\subsubsection{\textbf{DTW basado en Cubic Spline Interpolation}}
 \textbf{D}ynamic \textbf{T}ime \textbf{W}arping basado en Cubic \textbf{S}pline \textbf{I}nterpolation (SIDTW), tambi\'en conocido como \enquote{Cubic Dynamic Time Warping} (CDTW),  fue propuesto recientemente como una novedosa y mejorada extensi\'on de DTW \cite{DTWcubicsplineinterpolation}.\\\\
 \textbf{Acerca de la funci\'on SIDTW:}\\
 Segun los autores en \cite{DTWcubicsplineinterpolation}, inicialmente, se debe calcular la derivada de cada punto de la series de temporal mediante \enquote{Cubic Spline Interpolation}, a este proceso se le conoce como \enquote{\textbf{interpolaci\'on}}. Lo anterior es necesario para reemplazar las derivadas que fueron estimadas por Derivative Dymanic Time Warping (DDTW). Despu\'es de la interpolaci\'on, se utilizan las secuencias basadas en derivadas para representar las series de tiempo originales, para lograr una mejor descripci\'on la tendencia original de las series temporales, haci\'endolas m\'as f\'acil de deformar (\enquote{warping}) \cite{DTWcubicsplineinterpolation}.\par
@@ -172,18 +172,18 @@ Como se muestra en la siguiente imagen, una de las principales ventajas de CDTW 
 \begin{center}
 \includegraphics[scale=0.8]{cdtw.png}\\
 \vspace*{10pt}
-\footnotesize{\textbf{Figura 6} Visualizaci\'on de deformaciones innecesarias en DTW.} \textbf{Fuente:} \cite{DTWcubicsplineinterpolation}.
+\footnotesize{\textbf{Figura 6.} Visualizaci\'on de deformaciones innecesarias en DTW.} \textbf{Fuente:} \cite{DTWcubicsplineinterpolation}.
 \end{center}
 En la imagen anterior, $W$ corresponde a la cantidad de deformaciones producidas, en donde para DTW y DDTW, se observan valores mayores zero, mientras que en CDTW no produce deformaciones.\par
 Los experimentos sobre conjuntos de datos de series temporales desarrollados en \cite{DTWcubicsplineinterpolation}, reflejan que SIDTW puede reducir significativamente el n\'umero de singularidades y alinear m\'as adecuadamente los puntos entre las dos series de tiempo (facilitando notablemente el c\'omputo de la similitud). En resumen, mientras m\'as precisa sea la pendiente, m\'as efectivo ser\'a tambi\'en el c\'omputo de la deformaci\'on sobre las series de tiempo. Finalmente, cuando existen muchos puntos adyacentes con valores iguales en la serie de tiempo, los autores proponen el uso de \textbf{CDTW}, como una alternativa viable y superior (por ejemplo en comparaci\'on con DTW y DDTW) para evitar la producci\'on de deformaciones innecesarias 	\cite{DTWcubicsplineinterpolation}.
-\subsubsection{El Ruido y La Interpolaci\'on en Series Temporales}
+\subsubsection{El Ruido y la Interpolaci\'on en Series Temporales}
 La recolecci\'on de los datos de una serie de tiempo se encuentra siempre degradada por ruido en cierto grado \cite{noise}. Incluso una estimaci\'on aproximada del nivel de ruido contenido en la serie temporal es crucial, previo al an\'alisis de los datos.\par
 En la pr\'actica, las series de tiempo no estacionarias son muy comunes en campos diversos como la geof\'isica, las finanzas y las ciencias biol\'ogicas \cite{concepts}.\par
 En el siguiente gr\'afico se pueden observar, por ejemplo, segmentos \textit{no estacionarios} de se\~nales de un electroencefalograma a partir de la medici\'on clinica intracraneal de un individuo \cite{noise}.
 \begin{center}
 \includegraphics[scale=0.7]{brainsignal.png}\\
 \vspace*{10pt}
-\footnotesize{\textbf{Figura 7} Medici\'on Cl\'inica Intracraneal. Visualizac\'ion de ruido.}\\ \textbf{Fuente:} \cite{noise}.
+\footnotesize{\textbf{Figura 7.} Medici\'on Cl\'inica Intracraneal. Visualizac\'ion de ruido.}\\ \textbf{Fuente:} \cite{noise}.
 \end{center}
 En la figura 7, se puede apreciar la presencia de ruido en la serie temporal \textbf{(a)}. Es posible tambi\'en, observar los segmentos subyacentes \textbf{(b)}, \textbf{(c)} y \textbf{(d)}, superposicionados como parte de \textbf{a} y luego evaluados como segmentos individuales, con a\'un presencia de \enquote{\textit{\textbf{ruido blanco}}}.\par
 El ruido blanco es una se\~nal aleatoria (conocida tambi\'en como proceso estoc\'astico) que se caracteriza por el hecho de que sus valores en el eje tiempo, no guardan correlaci\'on estad\'istica. En resumen, el ruido blanco es no correlativo, es decir, en el eje del tiempo la se\~nal toma valores sin ninguna relaci\'on unos con otros \cite{concepts}.\par
